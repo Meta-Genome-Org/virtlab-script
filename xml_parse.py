@@ -1,15 +1,9 @@
-import cdcs
-from cdcs import CDCS
+import cdcs_deprec
+from cdcs_deprec import CDCS
 import pandas as pd
 import xml.dom.minidom as md
 
-curator = CDCS('https://portal.meta-genome.org/', username='frontpage_user', password='FrontPage123!')
-#curator = CDCS('http://192.168.1.161/', username='')
-template="mecha-metagenome-schema31"        # Make this to not have to be hard-coded
-query_dict = "{\"map.metamaterial-material-info\": {\"$exists\": true}}"
-my_query= curator.query(template=template, mongoquery=query_dict)
-xml_content = my_query.iloc[0].xml_content
-print(my_query)
+
 
 class xml_control:
     def __init__(self, cdcs_df, xml_string):
@@ -270,7 +264,7 @@ class xml_control:
         base_dict[f"base_material_{i}"] = base_stress_strain_dict
         
      
-my_parse = xml_control(my_query, xml_content) 
+#my_parse = xml_control(my_query, xml_content) 
 #my_vals = my_parse.inspect_xml()
 #print(my_vals)
 #my_topols = my_parse.get_topologies()
