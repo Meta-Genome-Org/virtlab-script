@@ -1,5 +1,3 @@
-import cdcs_deprec
-from cdcs_deprec import CDCS
 import pandas as pd
 import xml.dom.minidom as md
 
@@ -42,12 +40,12 @@ class xml_control:
         choice_elems = []
         for child in type_elems[-1]:
             choice_elems.append(child.tag)
-            print(child.tag.split('-').pop(-1))
+            
 
         # all properties in directional functionality
         choice_elems_clean = ['-'.join(word.split('-')[:-1]) for word in choice_elems]
         
-        print(choice_elems_clean)
+        #print(choice_elems_clean)
 
         possible_data = ['tensile-modulus', 'compressive-modulus', 'tensile-poissons-ratio', 'compressive-poissons',\
                          'compressive-poissons-ratio', "couple-constant", "yield-strength", "ultimate-yield-strength"]
@@ -55,12 +53,12 @@ class xml_control:
         # Getting single measures only - i.e. tensile modulus etc.
         identified_properties = []
         for clean_elem in choice_elems_clean:
-            print(clean_elem)
+
             if clean_elem in possible_data:
                 identified_properties.append(clean_elem)
 
         # identified single point properties within this submission:
-        print(identified_properties)
+        #print(identified_properties)
 
         # getting single point values and units
         measure_val_units = {}
@@ -88,7 +86,6 @@ class xml_control:
         
         return measure_val_units
     
-
 
     def get_topologies(self):
         import xml.etree.ElementTree as ET
@@ -121,7 +118,7 @@ class xml_control:
         choice_elems = []
         for child in type_elems[-1]:
             choice_elems.append(child)
-            print(child.tag.split('-').pop(-1))
+            
 
         possible_data = ['stress-strain', 'trans-axial-strain', 'base-stress-relax', 'base-twist-axial-strain']
 
@@ -260,8 +257,10 @@ class xml_control:
                     all_columns.append([row[0].text, row[1].text])
                 
                 base_stress_strain_dict[f"stress_strain_{j}"] = all_columns
-            
-        base_dict[f"base_material_{i}"] = base_stress_strain_dict
+                print(base_stress_strain_dict)
+            base_dict[f"base_material_{i}"] = base_stress_strain_dict
+        print(base_dict)
+        return base_dict
         
      
 #my_parse = xml_control(my_query, xml_content) 

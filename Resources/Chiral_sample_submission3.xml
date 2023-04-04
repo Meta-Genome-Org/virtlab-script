@@ -1,0 +1,3026 @@
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <versioning>
+    <cc-license-agreement>Yes</cc-license-agreement>
+    <is-updating-version>No</is-updating-version>
+  </versioning>
+  <publication-info>
+    <id>https://doi.org/10.1016/j.mtcomm.2023.105616</id>
+    <publication-authors>
+      <author-initials>Sample</author-initials>
+      <author-surname>Three</author-surname>
+    </publication-authors>
+    <publication-authors>
+      <author-initials>O</author-initials>
+      <author-surname>Duncan</author-surname>
+    </publication-authors>
+    <publication-authors>
+      <author-initials>M</author-initials>
+      <author-surname>Chester</author-surname>
+    </publication-authors>
+    <publication-authors>
+      <author-initials>W</author-initials>
+      <author-surname>Wang</author-surname>
+    </publication-authors>
+    <publication-authors>
+      <author-initials>A</author-initials>
+      <author-surname>Alderson</author-surname>
+    </publication-authors>
+    <publication-authors>
+      <author-initials>T</author-initials>
+      <author-surname>Allen</author-surname>
+    </publication-authors>
+    <publication-title>Effect of twist on indentation resistance</publication-title>
+    <publication-year>2023</publication-year>
+    <publication-journal>Materials Today Communications</publication-journal>
+    <publication-volume>35</publication-volume>
+    <publication-issue>1</publication-issue>
+    <publication-page>105616</publication-page>
+    <publication-url>https://www.sciencedirect.com/science/article/pii/S2352492823003069</publication-url>
+    <Publication-submitter>Oliver Duncan</Publication-submitter>
+    <Publication-submitter-email>o.duncan@mmu.ac.uk</Publication-submitter-email>
+  </publication-info>
+  <stress-strain-convention-info>
+    <strain-convention>Engineering Strain</strain-convention>
+    <stress-convention>Engineering Stress</stress-convention>
+  </stress-strain-convention-info>
+  <metamaterial-material-info>
+    <exp-or-sim>experimental</exp-or-sim>
+    <general-info>
+      <family>Idealised lattice</family>
+      <unusual_property>force/torque coupling</unusual_property>
+      <num_base_mats>1</num_base_mats>
+    </general-info>
+    <metamaterial-topol-unit-cell>
+      <fileExtension/>
+      <topology-url>https://portal.meta-genome.org/pid/rest/local/cdcs/NHQN0DQFQ7UARZ52</topology-url>
+      <base-material-info>
+        <base-material-class>Organic</base-material-class>
+        <new-base-class/>
+        <base-material-id>https://portal.meta-genome.org/pid/rest/local/cdcs/BXN3Y3GZJ6U6ICAV</base-material-id>
+      </base-material-info>
+    </metamaterial-topol-unit-cell>
+    <metamaterial-img>
+      <fileExtension>.png</fileExtension>
+      <image-url>https://portal.meta-genome.org/pid/rest/local/cdcs/Q0AXQ8MEF8T5B74Q</image-url>
+    </metamaterial-img>
+    <metamaterial-test-standard>ASTM D3574 – 11</metamaterial-test-standard>
+    <bulk-density>81.842</bulk-density>
+    <bulk-density-unit>kg/m³</bulk-density-unit>
+    <isotropic-choice>
+      <compressive-modulus-iso>
+        <compressive-modulus-iso-test-conditions>
+          <uniax-sample-details>
+            <test-cross-sec>rectangle</test-cross-sec>
+            <test-sample-width>71.4</test-sample-width>
+            <test-sample-width-units>mm</test-sample-width-units>
+            <test-sample-depth>71.4</test-sample-depth>
+            <test-sample-depth-units>mm</test-sample-depth-units>
+            <test-sample-gague-length>71.4</test-sample-gague-length>
+            <test-sample-gague-length-units>mm</test-sample-gague-length-units>
+          </uniax-sample-details>
+        </compressive-modulus-iso-test-conditions>
+        <compressive-modulus-val-iso>7.26</compressive-modulus-val-iso>
+        <compressive-modulus-units-iso>MPa</compressive-modulus-units-iso>
+        <compressive-modulus-conditions-iso>
+          <test-temperature>21</test-temperature>
+          <testing-temperature-units>˚C</testing-temperature-units>
+          <relative-humidity>35</relative-humidity>
+          <loading-rate>0.667</loading-rate>
+          <loading-rate-unit>%/s</loading-rate-unit>
+        </compressive-modulus-conditions-iso>
+      </compressive-modulus-iso>
+      <compressive-poissons-ratio-iso>
+        <compressive-poissons-iso-test-conditions>
+          <uniax-sample-details>
+            <test-cross-sec>rectangle</test-cross-sec>
+            <test-sample-width>71.4</test-sample-width>
+            <test-sample-width-units>mm</test-sample-width-units>
+            <test-sample-depth>71.4</test-sample-depth>
+            <test-sample-depth-units>mm</test-sample-depth-units>
+            <test-sample-gague-length>71.4</test-sample-gague-length>
+            <test-sample-gague-length-units>mm</test-sample-gague-length-units>
+          </uniax-sample-details>
+        </compressive-poissons-iso-test-conditions>
+        <compressive-poissons-ratio-val-iso>-0.02</compressive-poissons-ratio-val-iso>
+        <compressive-poissons-conditions-iso>
+          <test-temperature>21</test-temperature>
+          <testing-temperature-units>˚C</testing-temperature-units>
+          <relative-humidity>35</relative-humidity>
+          <loading-rate>0.667</loading-rate>
+          <loading-rate-unit>%/s</loading-rate-unit>
+        </compressive-poissons-conditions-iso>
+      </compressive-poissons-ratio-iso>
+      <couple-constant-iso>
+        <couple-constant-val-iso>0.5573</couple-constant-val-iso>
+        <couple-constant-conditions-iso>
+          <test-temperature>21</test-temperature>
+          <testing-temperature-units>˚C</testing-temperature-units>
+          <relative-humidity>35</relative-humidity>
+          <loading-rate>0.667</loading-rate>
+          <loading-rate-unit>%/s</loading-rate-unit>
+        </couple-constant-conditions-iso>
+      </couple-constant-iso>
+      <twist-iso>
+        <twist-iso-test-conditions>
+          <uniax-sample-details>
+            <test-cross-sec>rectangle</test-cross-sec>
+            <test-sample-width>71.4</test-sample-width>
+            <test-sample-width-units>mm</test-sample-width-units>
+            <test-sample-depth>71.4</test-sample-depth>
+            <test-sample-depth-units>mm</test-sample-depth-units>
+            <test-sample-gague-length>71.4</test-sample-gague-length>
+            <test-sample-gague-length-units>mm</test-sample-gague-length-units>
+          </uniax-sample-details>
+        </twist-iso-test-conditions>
+        <twist-val-iso>0.11</twist-val-iso>
+        <twist-len-conv-iso-data>
+          <twist-len-scale>9.3</twist-len-scale>
+          <twist-len-scale-units>mm</twist-len-scale-units>
+          <twist-convention>Micropolar</twist-convention>
+          <twist-conditions>
+            <test-temperature>21</test-temperature>
+            <testing-temperature-units>˚C</testing-temperature-units>
+            <relative-humidity>35</relative-humidity>
+            <loading-rate>0.667</loading-rate>
+            <loading-rate-unit>%/s</loading-rate-unit>
+          </twist-conditions>
+        </twist-len-conv-iso-data>
+      </twist-iso>
+      <base-stress-strain>
+        <stress-strain-topology-iso>
+          <fileExtension/>
+          <topology-url>https://portal.meta-genome.org/pid/rest/local/cdcs/SOZZUYBWOWEPT344</topology-url>
+          <base-material-info>
+            <base-material-class>Organic</base-material-class>
+            <new-base-class/>
+            <base-material-id>https://portal.meta-genome.org/pid/rest/local/cdcs/BXN3Y3GZJ6U6ICAV</base-material-id>
+          </base-material-info>
+        </stress-strain-topology-iso>
+        <stress-strain-unit-iso>MPa</stress-strain-unit-iso>
+        <stress-strain-xls-iso>
+          <fileExtension/>
+          <xls-upload-stress-strain-table>
+            <headers>
+              <column id="0"/>
+              <column id="1"/>
+            </headers>
+            <rows>
+              <row id="0">
+                <column id="0">0.0</column>
+                <column id="1">0.0</column>
+              </row>
+              <row id="1">
+                <column id="0">-1.92370448179278e-05</column>
+                <column id="1">-0.000131425119067238</column>
+              </row>
+              <row id="2">
+                <column id="0">-3.84642016806724e-05</column>
+                <column id="1">-0.000262850238134476</column>
+              </row>
+              <row id="3">
+                <column id="0">-5.76811904761909e-05</column>
+                <column id="1">-0.000392313788260402</column>
+              </row>
+              <row id="4">
+                <column id="0">-7.68877871148459e-05</column>
+                <column id="1">-0.00052373890732764</column>
+              </row>
+              <row id="5">
+                <column id="0">-9.60837394957987e-05</column>
+                <column id="1">-0.000655164026394878</column>
+              </row>
+              <row id="6">
+                <column id="0">-0.000114669425770309</column>
+                <column id="1">-0.000784627576520804</column>
+              </row>
+              <row id="7">
+                <column id="0">-0.00013384368347339</column>
+                <column id="1">-0.000916052695588042</column>
+              </row>
+              <row id="8">
+                <column id="0">-0.000153006554621849</column>
+                <column id="1">-0.00111220958971824</column>
+              </row>
+              <row id="9">
+                <column id="0">-0.00017634556022409</column>
+                <column id="1">-0.00130836648384844</column>
+              </row>
+              <row id="10">
+                <column id="0">-0.000191297170868348</column>
+                <column id="1">-0.00137309825891141</column>
+              </row>
+              <row id="11">
+                <column id="0">-0.000210424397759104</column>
+                <column id="1">-0.00150452337797865</column>
+              </row>
+              <row id="12">
+                <column id="0">-0.000229539257703081</column>
+                <column id="1">-0.00156925515304161</column>
+              </row>
+              <row id="13">
+                <column id="0">-0.00024864149859944</column>
+                <column id="1">-0.00176541204717181</column>
+              </row>
+              <row id="14">
+                <column id="0">-0.000267730868347339</column>
+                <column id="1">-0.00189683716623905</column>
+              </row>
+              <row id="15">
+                <column id="0">-0.000286807114845939</column>
+                <column id="1">-0.00196156894130201</column>
+              </row>
+              <row id="16">
+                <column id="0">-0.000305870000000001</column>
+                <column id="1">-0.00215772583543221</column>
+              </row>
+              <row id="17">
+                <column id="0">-0.000324919271708684</column>
+                <column id="1">-0.00228915095449945</column>
+              </row>
+              <row id="18">
+                <column id="0">-0.000343954677871148</column>
+                <column id="1">-0.00242057607356669</column>
+              </row>
+              <row id="19">
+                <column id="0">-0.000362381778711485</column>
+                <column id="1">-0.00261673296769689</column>
+              </row>
+              <row id="20">
+                <column id="0">-0.000380795406162465</column>
+                <column id="1">-0.00281288986182709</column>
+              </row>
+              <row id="21">
+                <column id="0">-0.000399788669467787</column>
+                <column id="1">-0.00287762163689005</column>
+              </row>
+              <row id="22">
+                <column id="0">-0.000418767072829132</column>
+                <column id="1">-0.00300904675595729</column>
+              </row>
+              <row id="23">
+                <column id="0">-0.000437730406162465</column>
+                <column id="1">-0.00313851030608322</column>
+              </row>
+              <row id="24">
+                <column id="0">-0.000456678403361345</column>
+                <column id="1">-0.00326993542515046</column>
+              </row>
+              <row id="25">
+                <column id="0">-0.000479158893557423</column>
+                <column id="1">-0.00346609231928066</column>
+              </row>
+              <row id="26">
+                <column id="0">-0.000494527408963586</column>
+                <column id="1">-0.00359751743834789</column>
+              </row>
+              <row id="27">
+                <column id="0">-0.000512837521008404</column>
+                <column id="1">-0.00372698098847382</column>
+              </row>
+              <row id="28">
+                <column id="0">-0.000531722226890757</column>
+                <column id="1">-0.0037936743324781</column>
+              </row>
+              <row id="29">
+                <column id="0">-0.000550590350140056</column>
+                <column id="1">-0.0039898312266083</column>
+              </row>
+              <row id="30">
+                <column id="0">-0.000569441680672269</column>
+                <column id="1">-0.00411929477673422</column>
+              </row>
+              <row id="31">
+                <column id="0">-0.00058827593837535</column>
+                <column id="1">-0.00425071989580146</column>
+              </row>
+              <row id="32">
+                <column id="0">-0.000606505126050421</column>
+                <column id="1">-0.00444687678993166</column>
+              </row>
+              <row id="33">
+                <column id="0">-0.000625305070028011</column>
+                <column id="1">-0.00451160856499462</column>
+              </row>
+              <row id="34">
+                <column id="0">-0.000644087226890756</column>
+                <column id="1">-0.00464303368406186</column>
+              </row>
+              <row id="35">
+                <column id="0">-0.000662851330532213</column>
+                <column id="1">-0.0047744588031291</column>
+              </row>
+              <row id="36">
+                <column id="0">-0.000681597142857143</column>
+                <column id="1">-0.00490392235325503</column>
+              </row>
+              <row id="37">
+                <column id="0">-0.000700324425770309</column>
+                <column id="1">-0.00503534747232226</column>
+              </row>
+              <row id="38">
+                <column id="0">-0.000719032913165266</column>
+                <column id="1">-0.0051667725913895</column>
+              </row>
+              <row id="39">
+                <column id="0">-0.000737138613445379</column>
+                <column id="1">-0.00523150436645247</column>
+              </row>
+              <row id="40">
+                <column id="0">-0.000755809383753502</column>
+                <column id="1">-0.00542766126058267</column>
+              </row>
+              <row id="41">
+                <column id="0">-0.00077795556022409</column>
+                <column id="1">-0.00562381815471287</column>
+              </row>
+              <row id="42">
+                <column id="0">-0.000793092114845939</column>
+                <column id="1">-0.00568854992977583</column>
+              </row>
+              <row id="43">
+                <column id="0">-0.000811703585434174</column>
+                <column id="1">-0.00581997504884307</column>
+              </row>
+              <row id="44">
+                <column id="0">-0.000830294775910365</column>
+                <column id="1">-0.00595140016791031</column>
+              </row>
+              <row id="45">
+                <column id="0">-0.000848865462184874</column>
+                <column id="1">-0.00608086371803623</column>
+              </row>
+              <row id="46">
+                <column id="0">-0.000866836008403362</column>
+                <column id="1">-0.00621228883710347</column>
+              </row>
+              <row id="47">
+                <column id="0">-0.000885365574229692</column>
+                <column id="1">-0.00634371395617071</column>
+              </row>
+              <row id="48">
+                <column id="0">-0.000903873893557423</column>
+                <column id="1">-0.00647317750629664</column>
+              </row>
+              <row id="49">
+                <column id="0">-0.000922360714285715</column>
+                <column id="1">-0.00660460262536387</column>
+              </row>
+              <row id="50">
+                <column id="0">-0.000940825798319328</column>
+                <column id="1">-0.00666933440042684</column>
+              </row>
+              <row id="51">
+                <column id="0">-0.000959268879551821</column>
+                <column id="1">-0.00680075951949407</column>
+              </row>
+              <row id="52">
+                <column id="0">-0.000977114397759104</column>
+                <column id="1">-0.00693218463856131</column>
+              </row>
+              <row id="53">
+                <column id="0">-0.000995513459383754</column>
+                <column id="1">-0.00712834153269151</column>
+              </row>
+              <row id="54">
+                <column id="0">-0.00101388977591036</column>
+                <column id="1">-0.00725780508281744</column>
+              </row>
+              <row id="55">
+                <column id="0">-0.0010322431372549</column>
+                <column id="1">-0.00732449842682171</column>
+              </row>
+              <row id="56">
+                <column id="0">-0.00105057324929972</column>
+                <column id="1">-0.00745396197694764</column>
+              </row>
+              <row id="57">
+                <column id="0">-0.00107230977591036</column>
+                <column id="1">-0.00765011887107784</column>
+              </row>
+              <row id="58">
+                <column id="0">-0.00108716282913165</column>
+                <column id="1">-0.00771681221508212</column>
+              </row>
+              <row id="59">
+                <column id="0">-0.00110542179271709</column>
+                <column id="1">-0.00784627576520804</column>
+              </row>
+              <row id="60">
+                <column id="0">-0.00112365654061625</column>
+                <column id="1">-0.00797770088427528</column>
+              </row>
+              <row id="61">
+                <column id="0">-0.0011412981232493</column>
+                <column id="1">-0.00810912600334252</column>
+              </row>
+              <row id="62">
+                <column id="0">-0.00115948446778711</column>
+                <column id="1">-0.00823858955346844</column>
+              </row>
+              <row id="63">
+                <column id="0">-0.00117764585434174</column>
+                <column id="1">-0.00837001467253568</column>
+              </row>
+              <row id="64">
+                <column id="0">-0.00119578205882353</column>
+                <column id="1">-0.00856617156666588</column>
+              </row>
+              <row id="65">
+                <column id="0">-0.00121332722689076</column>
+                <column id="1">-0.00869759668573312</column>
+              </row>
+              <row id="66">
+                <column id="0">-0.00123141308123249</column>
+                <column id="1">-0.00882706023585905</column>
+              </row>
+              <row id="67">
+                <column id="0">-0.00124947299719888</column>
+                <column id="1">-0.00889375357986332</column>
+              </row>
+              <row id="68">
+                <column id="0">-0.00126750673669468</column>
+                <column id="1">-0.00908991047399352</column>
+              </row>
+              <row id="69">
+                <column id="0">-0.00128551403361345</column>
+                <column id="1">-0.00921937402411945</column>
+              </row>
+              <row id="70">
+                <column id="0">-0.00130349466386555</column>
+                <column id="1">-0.00935079914318669</column>
+              </row>
+              <row id="71">
+                <column id="0">-0.00132144836134454</column>
+                <column id="1">-0.00941553091824965</column>
+              </row>
+              <row id="72">
+                <column id="0">-0.00133937488795518</column>
+                <column id="1">-0.00961168781237985</column>
+              </row>
+              <row id="73">
+                <column id="0">-0.00136062698879552</column>
+                <column id="1">-0.00980784470651005</column>
+              </row>
+              <row id="74">
+                <column id="0">-0.00137514542016807</column>
+                <column id="1">-0.00993926982557729</column>
+              </row>
+              <row id="75">
+                <column id="0">-0.00139298892156863</column>
+                <column id="1">-0.0101354267197075</column>
+              </row>
+              <row id="76">
+                <column id="0">-0.00141024796918768</column>
+                <column id="1">-0.0102668518387747</column>
+              </row>
+              <row id="77">
+                <column id="0">-0.00142803579831933</column>
+                <column id="1">-0.0103963153889007</column>
+              </row>
+              <row id="78">
+                <column id="0">-0.00144579495798319</column>
+                <column id="1">-0.0104630087329049</column>
+              </row>
+              <row id="79">
+                <column id="0">-0.00146352522408964</column>
+                <column id="1">-0.0106591656270351</column>
+              </row>
+              <row id="80">
+                <column id="0">-0.00148122634453782</column>
+                <column id="1">-0.0107886291771611</column>
+              </row>
+              <row id="81">
+                <column id="0">-0.00149889806722689</column>
+                <column id="1">-0.0108553225211653</column>
+              </row>
+              <row id="82">
+                <column id="0">-0.00151598927170868</column>
+                <column id="1">-0.0109847860712913</column>
+              </row>
+              <row id="83">
+                <column id="0">-0.00153360239495798</column>
+                <column id="1">-0.0111809429654215</column>
+              </row>
+              <row id="84">
+                <column id="0">-0.00155008732492997</column>
+                <column id="1">-0.0113123680844887</column>
+              </row>
+              <row id="85">
+                <column id="0">-0.00156764183473389</column>
+                <column id="1">-0.0114437932035559</column>
+              </row>
+              <row id="86">
+                <column id="0">-0.00158516572829132</column>
+                <column id="1">-0.0115732567536819</column>
+              </row>
+              <row id="87">
+                <column id="0">-0.001602658767507</column>
+                <column id="1">-0.0117046818727491</column>
+              </row>
+              <row id="88">
+                <column id="0">-0.00162012070028011</column>
+                <column id="1">-0.0118361069918163</column>
+              </row>
+              <row id="89">
+                <column id="0">-0.00164081598039216</column>
+                <column id="1">-0.0120322638859465</column>
+              </row>
+              <row id="90">
+                <column id="0">-0.00165495022408964</column>
+                <column id="1">-0.0121617274360725</column>
+              </row>
+              <row id="91">
+                <column id="0">-0.00167231733893558</column>
+                <column id="1">-0.0122284207800767</column>
+              </row>
+              <row id="92">
+                <column id="0">-0.00168965235294118</column>
+                <column id="1">-0.0124245776742069</column>
+              </row>
+              <row id="93">
+                <column id="0">-0.0017069550140056</column>
+                <column id="1">-0.0124893094492699</column>
+              </row>
+              <row id="94">
+                <column id="0">-0.00172422508403361</column>
+                <column id="1">-0.0126854663434001</column>
+              </row>
+              <row id="95">
+                <column id="0">-0.00174092414565826</column>
+                <column id="1">-0.0128168914624673</column>
+              </row>
+              <row id="96">
+                <column id="0">-0.00175812931372549</column>
+                <column id="1">-0.0130130483565975</column>
+              </row>
+              <row id="97">
+                <column id="0">-0.00177530114845938</column>
+                <column id="1">-0.0131425119067235</column>
+              </row>
+              <row id="98">
+                <column id="0">-0.0017919043417367</column>
+                <column id="1">-0.0132739370257907</column>
+              </row>
+              <row id="99">
+                <column id="0">-0.00180900983193277</column>
+                <column id="1">-0.0134053621448579</column>
+              </row>
+              <row id="100">
+                <column id="0">-0.0018260812605042</column>
+                <column id="1">-0.0135348256949839</column>
+              </row>
+            </rows>
+          </xls-upload-stress-strain-table>
+          <strain-confirm>
+            <selection>yes</selection>
+          </strain-confirm>
+          <stress-confirm>
+            <selection>yes</selection>
+          </stress-confirm>
+        </stress-strain-xls-iso>
+      </base-stress-strain>
+      <base-trans-axial-strain>
+        <trans-axial-strain-topology>
+          <fileExtension/>
+          <topology-url>https://portal.meta-genome.org/pid/rest/local/cdcs/ENFS5PCBCSAVV4SM</topology-url>
+          <base-material-info>
+            <base-material-class>Organic</base-material-class>
+            <new-base-class/>
+            <base-material-id>https://portal.meta-genome.org/pid/rest/local/cdcs/BXN3Y3GZJ6U6ICAV</base-material-id>
+          </base-material-info>
+        </trans-axial-strain-topology>
+        <trans-axial-strain-loading-ax>
+          <loading-ax>y</loading-ax>
+        </trans-axial-strain-loading-ax>
+        <trans-axial-strain-trans-ax>
+          <transverse-ax>x</transverse-ax>
+        </trans-axial-strain-trans-ax>
+        <trans-axial-strain-xls>
+          <fileExtension/>
+          <xls-upload-ax_strain-t_strain-table>
+            <headers>
+              <column id="0"/>
+              <column id="1"/>
+            </headers>
+            <rows>
+              <row id="0">
+                <column id="0">0.0</column>
+                <column id="1">0.0</column>
+              </row>
+              <row id="1">
+                <column id="0">0.000466000000000077</column>
+                <column id="1">0.0100965277777778</column>
+              </row>
+              <row id="2">
+                <column id="0">-0.00125199999999998</column>
+                <column id="1">0.0117569444444444</column>
+              </row>
+              <row id="3">
+                <column id="0">-0.00179600000000002</column>
+                <column id="1">0.00391944444444444</column>
+              </row>
+              <row id="4">
+                <column id="0">-0.00446599999999991</column>
+                <column id="1">0.00294027777777778</column>
+              </row>
+              <row id="5">
+                <column id="0">-0.00707599999999997</column>
+                <column id="1">0.00341736111111111</column>
+              </row>
+              <row id="6">
+                <column id="0">-0.00915399999999994</column>
+                <column id="1">0.0110972222222222</column>
+              </row>
+              <row id="7">
+                <column id="0">-0.011198</column>
+                <column id="1">0.0110125</column>
+              </row>
+              <row id="8">
+                <column id="0">-0.00951599999999991</column>
+                <column id="1">0.00925069444444445</column>
+              </row>
+              <row id="9">
+                <column id="0">-0.0112239999999999</column>
+                <column id="1">0.00932569444444444</column>
+              </row>
+              <row id="10">
+                <column id="0">-0.0137139999999999</column>
+                <column id="1">0.00816041666666667</column>
+              </row>
+              <row id="11">
+                <column id="0">-0.0178659999999999</column>
+                <column id="1">0.00818055555555556</column>
+              </row>
+              <row id="12">
+                <column id="0">-0.018232</column>
+                <column id="1">0.00625902777777778</column>
+              </row>
+              <row id="13">
+                <column id="0">-0.0170519999999999</column>
+                <column id="1">0.0116041666666667</column>
+              </row>
+              <row id="14">
+                <column id="0">-0.022408</column>
+                <column id="1">0.0106319444444444</column>
+              </row>
+              <row id="15">
+                <column id="0">-0.020806</column>
+                <column id="1">0.0111680555555556</column>
+              </row>
+              <row id="16">
+                <column id="0">-0.023664</column>
+                <column id="1">0.0109847222222222</column>
+              </row>
+              <row id="17">
+                <column id="0">-0.0250999999999999</column>
+                <column id="1">0.01540625</column>
+              </row>
+              <row id="18">
+                <column id="0">-0.02653</column>
+                <column id="1">0.0139402777777778</column>
+              </row>
+              <row id="19">
+                <column id="0">-0.02855</column>
+                <column id="1">0.0137944444444444</column>
+              </row>
+              <row id="20">
+                <column id="0">-0.030976</column>
+                <column id="1">0.0158916666666667</column>
+              </row>
+              <row id="21">
+                <column id="0">-0.030276</column>
+                <column id="1">0.0164347222222222</column>
+              </row>
+              <row id="22">
+                <column id="0">-0.032476</column>
+                <column id="1">0.0194173611111111</column>
+              </row>
+              <row id="23">
+                <column id="0">-0.034778</column>
+                <column id="1">0.0220159722222222</column>
+              </row>
+              <row id="24">
+                <column id="0">-0.033866</column>
+                <column id="1">0.0168402777777778</column>
+              </row>
+              <row id="25">
+                <column id="0">-0.0345759999999999</column>
+                <column id="1">0.0279548611111111</column>
+              </row>
+              <row id="26">
+                <column id="0">-0.03664</column>
+                <column id="1">0.0220145833333333</column>
+              </row>
+              <row id="27">
+                <column id="0">-0.038828</column>
+                <column id="1">0.0206527777777778</column>
+              </row>
+              <row id="28">
+                <column id="0">-0.04168</column>
+                <column id="1">0.0291673611111111</column>
+              </row>
+              <row id="29">
+                <column id="0">-0.03993</column>
+                <column id="1">0.0341444444444445</column>
+              </row>
+              <row id="30">
+                <column id="0">-0.0418839999999999</column>
+                <column id="1">0.0261673611111111</column>
+              </row>
+              <row id="31">
+                <column id="0">-0.043978</column>
+                <column id="1">0.0301840277777778</column>
+              </row>
+              <row id="32">
+                <column id="0">-0.048584</column>
+                <column id="1">0.0266152777777778</column>
+              </row>
+              <row id="33">
+                <column id="0">-0.050236</column>
+                <column id="1">0.0252083333333333</column>
+              </row>
+              <row id="34">
+                <column id="0">-0.0478299999999999</column>
+                <column id="1">0.0289201388888889</column>
+              </row>
+              <row id="35">
+                <column id="0">-0.0451779999999999</column>
+                <column id="1">0.0226354166666667</column>
+              </row>
+              <row id="36">
+                <column id="0">-0.050872</column>
+                <column id="1">0.0281465277777778</column>
+              </row>
+              <row id="37">
+                <column id="0">-0.056674</column>
+                <column id="1">0.0287208333333333</column>
+              </row>
+              <row id="38">
+                <column id="0">-0.0547700000000001</column>
+                <column id="1">0.0270027777777778</column>
+              </row>
+              <row id="39">
+                <column id="0">-0.0574739999999999</column>
+                <column id="1">0.0295826388888889</column>
+              </row>
+              <row id="40">
+                <column id="0">-0.055568</column>
+                <column id="1">0.02535625</column>
+              </row>
+              <row id="41">
+                <column id="0">-0.060326</column>
+                <column id="1">0.02744375</column>
+              </row>
+              <row id="42">
+                <column id="0">-0.06131</column>
+                <column id="1">0.02384375</column>
+              </row>
+              <row id="43">
+                <column id="0">-0.0644959999999999</column>
+                <column id="1">0.02886875</column>
+              </row>
+              <row id="44">
+                <column id="0">-0.0659299999999999</column>
+                <column id="1">0.0247409722222222</column>
+              </row>
+              <row id="45">
+                <column id="0">-0.0672820000000001</column>
+                <column id="1">0.0181291666666667</column>
+              </row>
+              <row id="46">
+                <column id="0">-0.072438</column>
+                <column id="1">0.0205402777777778</column>
+              </row>
+              <row id="47">
+                <column id="0">-0.0715459999999999</column>
+                <column id="1">0.0236930555555556</column>
+              </row>
+              <row id="48">
+                <column id="0">-0.0729719999999999</column>
+                <column id="1">0.0229479166666667</column>
+              </row>
+              <row id="49">
+                <column id="0">-0.082172</column>
+                <column id="1">0.0211479166666667</column>
+              </row>
+              <row id="50">
+                <column id="0">-0.0770239999999999</column>
+                <column id="1">0.0160944444444444</column>
+              </row>
+              <row id="51">
+                <column id="0">-0.078324</column>
+                <column id="1">0.0224993055555556</column>
+              </row>
+              <row id="52">
+                <column id="0">-0.082802</column>
+                <column id="1">0.0197166666666667</column>
+              </row>
+              <row id="53">
+                <column id="0">-0.084446</column>
+                <column id="1">0.02488125</column>
+              </row>
+              <row id="54">
+                <column id="0">-0.085688</column>
+                <column id="1">0.0171625</column>
+              </row>
+              <row id="55">
+                <column id="0">-0.0897440000000001</column>
+                <column id="1">0.0224743055555556</column>
+              </row>
+              <row id="56">
+                <column id="0">-0.08883</column>
+                <column id="1">0.0149715277777778</column>
+              </row>
+              <row id="57">
+                <column id="0">-0.0925</column>
+                <column id="1">0.0170680555555556</column>
+              </row>
+              <row id="58">
+                <column id="0">-0.095888</column>
+                <column id="1">0.01194375</column>
+              </row>
+              <row id="59">
+                <column id="0">-0.0979599999999998</column>
+                <column id="1">0.0171194444444444</column>
+              </row>
+              <row id="60">
+                <column id="0">-0.102514</column>
+                <column id="1">0.0184090277777778</column>
+              </row>
+              <row id="61">
+                <column id="0">-0.0996019999999999</column>
+                <column id="1">0.0145333333333333</column>
+              </row>
+              <row id="62">
+                <column id="0">-0.10486</column>
+                <column id="1">0.0193784722222222</column>
+              </row>
+              <row id="63">
+                <column id="0">-0.108716</column>
+                <column id="1">0.0183097222222222</column>
+              </row>
+              <row id="64">
+                <column id="0">-0.109474</column>
+                <column id="1">0.01086875</column>
+              </row>
+              <row id="65">
+                <column id="0">-0.113206</column>
+                <column id="1">0.0171541666666667</column>
+              </row>
+              <row id="66">
+                <column id="0">-0.11582</column>
+                <column id="1">0.0213868055555556</column>
+              </row>
+              <row id="67">
+                <column id="0">-0.122694</column>
+                <column id="1">0.0223923611111111</column>
+              </row>
+              <row id="68">
+                <column id="0">-0.119202</column>
+                <column id="1">0.0148472222222222</column>
+              </row>
+              <row id="69">
+                <column id="0">-0.123066</column>
+                <column id="1">0.0140638888888889</column>
+              </row>
+              <row id="70">
+                <column id="0">-0.122254</column>
+                <column id="1">0.01213125</column>
+              </row>
+              <row id="71">
+                <column id="0">-0.125324</column>
+                <column id="1">0.0187868055555556</column>
+              </row>
+              <row id="72">
+                <column id="0">-0.12921</column>
+                <column id="1">0.0106319444444444</column>
+              </row>
+              <row id="73">
+                <column id="0">-0.1348</column>
+                <column id="1">0.0221298611111111</column>
+              </row>
+              <row id="74">
+                <column id="0">-0.135886</column>
+                <column id="1">0.0195805555555556</column>
+              </row>
+              <row id="75">
+                <column id="0">-0.138378</column>
+                <column id="1">0.0184055555555556</column>
+              </row>
+              <row id="76">
+                <column id="0">-0.14156</column>
+                <column id="1">0.0124861111111111</column>
+              </row>
+              <row id="77">
+                <column id="0">-0.14211</column>
+                <column id="1">0.0168576388888889</column>
+              </row>
+              <row id="78">
+                <column id="0">-0.14652</column>
+                <column id="1">0.0212298611111111</column>
+              </row>
+              <row id="79">
+                <column id="0">-0.146466</column>
+                <column id="1">0.0246930555555556</column>
+              </row>
+              <row id="80">
+                <column id="0">-0.147902</column>
+                <column id="1">0.0140333333333333</column>
+              </row>
+              <row id="81">
+                <column id="0">-0.149672</column>
+                <column id="1">0.01734375</column>
+              </row>
+              <row id="82">
+                <column id="0">-0.1545</column>
+                <column id="1">0.0179166666666667</column>
+              </row>
+              <row id="83">
+                <column id="0">-0.15669</column>
+                <column id="1">0.0187909722222222</column>
+              </row>
+              <row id="84">
+                <column id="0">-0.158098</column>
+                <column id="1">0.0177347222222222</column>
+              </row>
+              <row id="85">
+                <column id="0">-0.162334</column>
+                <column id="1">0.0244305555555556</column>
+              </row>
+              <row id="86">
+                <column id="0">-0.160218</column>
+                <column id="1">0.0201652777777778</column>
+              </row>
+              <row id="87">
+                <column id="0">-0.165882</column>
+                <column id="1">0.0206847222222222</column>
+              </row>
+              <row id="88">
+                <column id="0">-0.166894</column>
+                <column id="1">0.02085625</column>
+              </row>
+              <row id="89">
+                <column id="0">-0.166322</column>
+                <column id="1">0.0135125</column>
+              </row>
+              <row id="90">
+                <column id="0">-0.16828</column>
+                <column id="1">0.0169368055555556</column>
+              </row>
+              <row id="91">
+                <column id="0">-0.17243</column>
+                <column id="1">0.00959930555555556</column>
+              </row>
+              <row id="92">
+                <column id="0">-0.175308</column>
+                <column id="1">0.0118618055555556</column>
+              </row>
+              <row id="93">
+                <column id="0">-0.17835</column>
+                <column id="1">0.0211583333333333</column>
+              </row>
+              <row id="94">
+                <column id="0">-0.179334</column>
+                <column id="1">0.0165590277777778</column>
+              </row>
+              <row id="95">
+                <column id="0">-0.180292</column>
+                <column id="1">0.0167354166666667</column>
+              </row>
+              <row id="96">
+                <column id="0">-0.18427</column>
+                <column id="1">0.0152020833333333</column>
+              </row>
+              <row id="97">
+                <column id="0">-0.185202</column>
+                <column id="1">0.0114972222222222</column>
+              </row>
+              <row id="98">
+                <column id="0">-0.191152</column>
+                <column id="1">0.0183631944444444</column>
+              </row>
+              <row id="99">
+                <column id="0">-0.190438</column>
+                <column id="1">0.00227777777777778</column>
+              </row>
+              <row id="100">
+                <column id="0">-0.193388</column>
+                <column id="1">0.0195270833333333</column>
+              </row>
+              <row id="101">
+                <column id="0">-0.19409</column>
+                <column id="1">0.0110180555555556</column>
+              </row>
+              <row id="102">
+                <column id="0">-0.195748</column>
+                <column id="1">0.0118020833333333</column>
+              </row>
+              <row id="103">
+                <column id="0">-0.199132</column>
+                <column id="1">0.00239652777777778</column>
+              </row>
+              <row id="104">
+                <column id="0">-0.201608</column>
+                <column id="1">0.0149375</column>
+              </row>
+              <row id="105">
+                <column id="0">-0.203792</column>
+                <column id="1">0.0101541666666667</column>
+              </row>
+              <row id="106">
+                <column id="0">-0.207106</column>
+                <column id="1">0.0195576388888889</column>
+              </row>
+              <row id="107">
+                <column id="0">-0.207614</column>
+                <column id="1">0.0121763888888889</column>
+              </row>
+              <row id="108">
+                <column id="0">-0.21306</column>
+                <column id="1">0.0176291666666667</column>
+              </row>
+              <row id="109">
+                <column id="0">-0.212192</column>
+                <column id="1">0.0175354166666667</column>
+              </row>
+              <row id="110">
+                <column id="0">-0.21674</column>
+                <column id="1">0.02435</column>
+              </row>
+              <row id="111">
+                <column id="0">-0.22018</column>
+                <column id="1">0.0149166666666667</column>
+              </row>
+              <row id="112">
+                <column id="0">-0.224286</column>
+                <column id="1">0.0281069444444444</column>
+              </row>
+              <row id="113">
+                <column id="0">-0.226028</column>
+                <column id="1">0.01224375</column>
+              </row>
+              <row id="114">
+                <column id="0">-0.228138</column>
+                <column id="1">0.0192729166666667</column>
+              </row>
+              <row id="115">
+                <column id="0">-0.230398</column>
+                <column id="1">0.0149805555555556</column>
+              </row>
+              <row id="116">
+                <column id="0">-0.231324</column>
+                <column id="1">0.0199923611111111</column>
+              </row>
+              <row id="117">
+                <column id="0">-0.235396</column>
+                <column id="1">0.0250756944444444</column>
+              </row>
+              <row id="118">
+                <column id="0">-0.237014</column>
+                <column id="1">0.0272034722222222</column>
+              </row>
+              <row id="119">
+                <column id="0">-0.236708</column>
+                <column id="1">0.02491875</column>
+              </row>
+              <row id="120">
+                <column id="0">-0.242452</column>
+                <column id="1">0.0246229166666667</column>
+              </row>
+              <row id="121">
+                <column id="0">-0.244426</column>
+                <column id="1">0.0247444444444444</column>
+              </row>
+              <row id="122">
+                <column id="0">-0.244482</column>
+                <column id="1">0.0223861111111111</column>
+              </row>
+              <row id="123">
+                <column id="0">-0.25058</column>
+                <column id="1">0.0273090277777778</column>
+              </row>
+              <row id="124">
+                <column id="0">-0.252642</column>
+                <column id="1">0.02175</column>
+              </row>
+              <row id="125">
+                <column id="0">-0.256778</column>
+                <column id="1">0.0274319444444445</column>
+              </row>
+              <row id="126">
+                <column id="0">-0.25848</column>
+                <column id="1">0.0279652777777778</column>
+              </row>
+              <row id="127">
+                <column id="0">-0.250922</column>
+                <column id="1">0.0252868055555556</column>
+              </row>
+              <row id="128">
+                <column id="0">-0.259978</column>
+                <column id="1">0.0241055555555556</column>
+              </row>
+              <row id="129">
+                <column id="0">-0.26388</column>
+                <column id="1">0.0198909722222222</column>
+              </row>
+              <row id="130">
+                <column id="0">-0.267584</column>
+                <column id="1">0.0297472222222222</column>
+              </row>
+              <row id="131">
+                <column id="0">-0.269882</column>
+                <column id="1">0.0328743055555556</column>
+              </row>
+              <row id="132">
+                <column id="0">-0.271444</column>
+                <column id="1">0.0296423611111111</column>
+              </row>
+              <row id="133">
+                <column id="0">-0.273186</column>
+                <column id="1">0.0222298611111111</column>
+              </row>
+              <row id="134">
+                <column id="0">-0.27574</column>
+                <column id="1">0.0260291666666667</column>
+              </row>
+              <row id="135">
+                <column id="0">-0.277406</column>
+                <column id="1">0.0254631944444444</column>
+              </row>
+              <row id="136">
+                <column id="0">-0.27883</column>
+                <column id="1">0.0263166666666667</column>
+              </row>
+              <row id="137">
+                <column id="0">-0.281134</column>
+                <column id="1">0.0234215277777778</column>
+              </row>
+              <row id="138">
+                <column id="0">-0.282904</column>
+                <column id="1">0.0315826388888889</column>
+              </row>
+              <row id="139">
+                <column id="0">-0.282836</column>
+                <column id="1">0.0303680555555556</column>
+              </row>
+              <row id="140">
+                <column id="0">-0.28679</column>
+                <column id="1">0.0350951388888889</column>
+              </row>
+              <row id="141">
+                <column id="0">-0.291738</column>
+                <column id="1">0.0322277777777778</column>
+              </row>
+              <row id="142">
+                <column id="0">-0.291604</column>
+                <column id="1">0.0328847222222222</column>
+              </row>
+              <row id="143">
+                <column id="0">-0.292712</column>
+                <column id="1">0.0346270833333333</column>
+              </row>
+              <row id="144">
+                <column id="0">-0.295628</column>
+                <column id="1">0.0352173611111111</column>
+              </row>
+              <row id="145">
+                <column id="0">-0.296744</column>
+                <column id="1">0.0363979166666667</column>
+              </row>
+              <row id="146">
+                <column id="0">-0.299282</column>
+                <column id="1">0.0329777777777778</column>
+              </row>
+              <row id="147">
+                <column id="0">-0.29838</column>
+                <column id="1">0.0376097222222222</column>
+              </row>
+              <row id="148">
+                <column id="0">-0.302054</column>
+                <column id="1">0.0374770833333333</column>
+              </row>
+              <row id="149">
+                <column id="0">-0.304206</column>
+                <column id="1">0.03829375</column>
+              </row>
+              <row id="150">
+                <column id="0">-0.308624</column>
+                <column id="1">0.0453402777777778</column>
+              </row>
+              <row id="151">
+                <column id="0">-0.309866</column>
+                <column id="1">0.0425736111111111</column>
+              </row>
+              <row id="152">
+                <column id="0">-0.308224</column>
+                <column id="1">0.0458902777777778</column>
+              </row>
+              <row id="153">
+                <column id="0">-0.316232</column>
+                <column id="1">0.0495958333333333</column>
+              </row>
+              <row id="154">
+                <column id="0">-0.31642</column>
+                <column id="1">0.0516590277777778</column>
+              </row>
+              <row id="155">
+                <column id="0">-0.317644</column>
+                <column id="1">0.0476645833333333</column>
+              </row>
+              <row id="156">
+                <column id="0">-0.321876</column>
+                <column id="1">0.0621597222222222</column>
+              </row>
+              <row id="157">
+                <column id="0">-0.326878</column>
+                <column id="1">0.0508347222222222</column>
+              </row>
+              <row id="158">
+                <column id="0">-0.332668</column>
+                <column id="1">0.0596305555555556</column>
+              </row>
+              <row id="159">
+                <column id="0">-0.33456</column>
+                <column id="1">0.0639638888888889</column>
+              </row>
+              <row id="160">
+                <column id="0">-0.334722</column>
+                <column id="1">0.0658715277777778</column>
+              </row>
+              <row id="161">
+                <column id="0">-0.33539</column>
+                <column id="1">0.0674006944444444</column>
+              </row>
+              <row id="162">
+                <column id="0">-0.3386</column>
+                <column id="1">0.0683034722222222</column>
+              </row>
+              <row id="163">
+                <column id="0">-0.337752</column>
+                <column id="1">0.0574666666666667</column>
+              </row>
+              <row id="164">
+                <column id="0">-0.342606</column>
+                <column id="1">0.0669034722222222</column>
+              </row>
+              <row id="165">
+                <column id="0">-0.345878</column>
+                <column id="1">0.0639298611111111</column>
+              </row>
+              <row id="166">
+                <column id="0">-0.35023</column>
+                <column id="1">0.0717520833333333</column>
+              </row>
+              <row id="167">
+                <column id="0">-0.350844</column>
+                <column id="1">0.06718125</column>
+              </row>
+              <row id="168">
+                <column id="0">-0.352292</column>
+                <column id="1">0.06635625</column>
+              </row>
+              <row id="169">
+                <column id="0">-0.353918</column>
+                <column id="1">0.06515</column>
+              </row>
+              <row id="170">
+                <column id="0">-0.355228</column>
+                <column id="1">0.0677951388888889</column>
+              </row>
+              <row id="171">
+                <column id="0">-0.360516</column>
+                <column id="1">0.0668208333333333</column>
+              </row>
+              <row id="172">
+                <column id="0">0.235826</column>
+                <column id="1">0.0522451388888889</column>
+              </row>
+              <row id="173">
+                <column id="0">-0.366046</column>
+                <column id="1">0.0693298611111111</column>
+              </row>
+              <row id="174">
+                <column id="0">-0.367166</column>
+                <column id="1">0.0775916666666667</column>
+              </row>
+              <row id="175">
+                <column id="0">-0.369694</column>
+                <column id="1">0.0755993055555556</column>
+              </row>
+              <row id="176">
+                <column id="0">-0.369452</column>
+                <column id="1">0.0677194444444444</column>
+              </row>
+              <row id="177">
+                <column id="0">-0.375314</column>
+                <column id="1">0.0684826388888889</column>
+              </row>
+              <row id="178">
+                <column id="0">-0.378392</column>
+                <column id="1">0.0696180555555555</column>
+              </row>
+              <row id="179">
+                <column id="0">-0.379628</column>
+                <column id="1">0.07445</column>
+              </row>
+              <row id="180">
+                <column id="0">-0.383674</column>
+                <column id="1">0.0675298611111111</column>
+              </row>
+              <row id="181">
+                <column id="0">-0.388124</column>
+                <column id="1">0.07834375</column>
+              </row>
+              <row id="182">
+                <column id="0">-0.390288</column>
+                <column id="1">0.0750243055555556</column>
+              </row>
+              <row id="183">
+                <column id="0">-0.388022</column>
+                <column id="1">0.0736034722222222</column>
+              </row>
+              <row id="184">
+                <column id="0">-0.394198</column>
+                <column id="1">0.0771305555555556</column>
+              </row>
+              <row id="185">
+                <column id="0">-0.393202</column>
+                <column id="1">0.0759013888888889</column>
+              </row>
+              <row id="186">
+                <column id="0">-0.397314</column>
+                <column id="1">0.0723430555555556</column>
+              </row>
+              <row id="187">
+                <column id="0">-0.398228</column>
+                <column id="1">0.0728506944444445</column>
+              </row>
+              <row id="188">
+                <column id="0">-0.400936</column>
+                <column id="1">0.0735986111111111</column>
+              </row>
+              <row id="189">
+                <column id="0">-0.404552</column>
+                <column id="1">0.0746743055555556</column>
+              </row>
+              <row id="190">
+                <column id="0">-0.405084</column>
+                <column id="1">0.0831805555555556</column>
+              </row>
+              <row id="191">
+                <column id="0">-0.40686</column>
+                <column id="1">0.0676909722222222</column>
+              </row>
+              <row id="192">
+                <column id="0">-0.406778</column>
+                <column id="1">0.0739083333333333</column>
+              </row>
+              <row id="193">
+                <column id="0">-0.415444</column>
+                <column id="1">0.0723652777777778</column>
+              </row>
+              <row id="194">
+                <column id="0">-0.417888</column>
+                <column id="1">0.0722305555555556</column>
+              </row>
+              <row id="195">
+                <column id="0">-0.419354</column>
+                <column id="1">0.0721256944444444</column>
+              </row>
+              <row id="196">
+                <column id="0">-0.422456</column>
+                <column id="1">0.0775152777777778</column>
+              </row>
+              <row id="197">
+                <column id="0">-0.425368</column>
+                <column id="1">0.0747236111111111</column>
+              </row>
+              <row id="198">
+                <column id="0">-0.429636</column>
+                <column id="1">0.0718729166666667</column>
+              </row>
+              <row id="199">
+                <column id="0">-0.428474</column>
+                <column id="1">0.07238125</column>
+              </row>
+              <row id="200">
+                <column id="0">-0.435634</column>
+                <column id="1">0.0768131944444444</column>
+              </row>
+              <row id="201">
+                <column id="0">-0.438876</column>
+                <column id="1">0.0732256944444444</column>
+              </row>
+              <row id="202">
+                <column id="0">-0.436204</column>
+                <column id="1">0.0681548611111111</column>
+              </row>
+              <row id="203">
+                <column id="0">-0.443016</column>
+                <column id="1">0.0767576388888889</column>
+              </row>
+              <row id="204">
+                <column id="0">-0.44787</column>
+                <column id="1">0.0757791666666667</column>
+              </row>
+              <row id="205">
+                <column id="0">-0.450002</column>
+                <column id="1">0.0669284722222222</column>
+              </row>
+              <row id="206">
+                <column id="0">-0.455082</column>
+                <column id="1">0.0732729166666667</column>
+              </row>
+              <row id="207">
+                <column id="0">-0.455078</column>
+                <column id="1">0.0692694444444444</column>
+              </row>
+              <row id="208">
+                <column id="0">-0.459092</column>
+                <column id="1">0.0786840277777778</column>
+              </row>
+              <row id="209">
+                <column id="0">-0.45955</column>
+                <column id="1">0.0766958333333334</column>
+              </row>
+              <row id="210">
+                <column id="0">-0.46589</column>
+                <column id="1">0.0700222222222222</column>
+              </row>
+              <row id="211">
+                <column id="0">-0.465516</column>
+                <column id="1">0.0743958333333333</column>
+              </row>
+              <row id="212">
+                <column id="0">-0.471312</column>
+                <column id="1">0.0685486111111111</column>
+              </row>
+              <row id="213">
+                <column id="0">-0.47216</column>
+                <column id="1">0.0762347222222222</column>
+              </row>
+              <row id="214">
+                <column id="0">-0.474092</column>
+                <column id="1">0.0773611111111111</column>
+              </row>
+              <row id="215">
+                <column id="0">-0.47827</column>
+                <column id="1">0.0791180555555556</column>
+              </row>
+              <row id="216">
+                <column id="0">-0.477898</column>
+                <column id="1">0.0746020833333333</column>
+              </row>
+              <row id="217">
+                <column id="0">-0.483028</column>
+                <column id="1">0.0774576388888889</column>
+              </row>
+              <row id="218">
+                <column id="0">-0.483998</column>
+                <column id="1">0.0762777777777778</column>
+              </row>
+              <row id="219">
+                <column id="0">-0.484552</column>
+                <column id="1">0.0703298611111111</column>
+              </row>
+              <row id="220">
+                <column id="0">-0.492202</column>
+                <column id="1">0.0708902777777778</column>
+              </row>
+              <row id="221">
+                <column id="0">-0.496106</column>
+                <column id="1">0.07871875</column>
+              </row>
+              <row id="222">
+                <column id="0">-0.49704</column>
+                <column id="1">0.0790722222222222</column>
+              </row>
+              <row id="223">
+                <column id="0">-0.498824</column>
+                <column id="1">0.0767930555555555</column>
+              </row>
+              <row id="224">
+                <column id="0">-0.502368</column>
+                <column id="1">0.0750090277777778</column>
+              </row>
+              <row id="225">
+                <column id="0">-0.506742</column>
+                <column id="1">0.0788902777777778</column>
+              </row>
+              <row id="226">
+                <column id="0">-0.508972</column>
+                <column id="1">0.0774819444444445</column>
+              </row>
+              <row id="227">
+                <column id="0">-0.508926</column>
+                <column id="1">0.0803430555555556</column>
+              </row>
+              <row id="228">
+                <column id="0">-0.514128</column>
+                <column id="1">0.07664375</column>
+              </row>
+              <row id="229">
+                <column id="0">-0.513582</column>
+                <column id="1">0.0787034722222222</column>
+              </row>
+              <row id="230">
+                <column id="0">-0.515674</column>
+                <column id="1">0.0728604166666667</column>
+              </row>
+              <row id="231">
+                <column id="0">-0.521496</column>
+                <column id="1">0.0806819444444445</column>
+              </row>
+              <row id="232">
+                <column id="0">-0.520634</column>
+                <column id="1">0.0741965277777778</column>
+              </row>
+              <row id="233">
+                <column id="0">-0.525208</column>
+                <column id="1">0.0761986111111111</column>
+              </row>
+              <row id="234">
+                <column id="0">-0.526412</column>
+                <column id="1">0.0777868055555556</column>
+              </row>
+              <row id="235">
+                <column id="0">-0.533496</column>
+                <column id="1">0.0851611111111111</column>
+              </row>
+              <row id="236">
+                <column id="0">-0.534502</column>
+                <column id="1">0.0783972222222222</column>
+              </row>
+              <row id="237">
+                <column id="0">-0.534668</column>
+                <column id="1">0.0779131944444444</column>
+              </row>
+              <row id="238">
+                <column id="0">-0.536298</column>
+                <column id="1">0.0753673611111111</column>
+              </row>
+              <row id="239">
+                <column id="0">-0.54306</column>
+                <column id="1">0.0824368055555556</column>
+              </row>
+              <row id="240">
+                <column id="0">-0.54187</column>
+                <column id="1">0.0843833333333333</column>
+              </row>
+              <row id="241">
+                <column id="0">-0.546352</column>
+                <column id="1">0.0873145833333333</column>
+              </row>
+              <row id="242">
+                <column id="0">-0.548192</column>
+                <column id="1">0.0799590277777778</column>
+              </row>
+              <row id="243">
+                <column id="0">-0.551348</column>
+                <column id="1">0.0804333333333333</column>
+              </row>
+              <row id="244">
+                <column id="0">-0.548916</column>
+                <column id="1">0.0800222222222222</column>
+              </row>
+              <row id="245">
+                <column id="0">-0.553112</column>
+                <column id="1">0.0790298611111111</column>
+              </row>
+              <row id="246">
+                <column id="0">-0.555232</column>
+                <column id="1">0.0833097222222222</column>
+              </row>
+              <row id="247">
+                <column id="0">-0.5578</column>
+                <column id="1">0.0884798611111111</column>
+              </row>
+              <row id="248">
+                <column id="0">-0.56091</column>
+                <column id="1">0.0828194444444444</column>
+              </row>
+              <row id="249">
+                <column id="0">-0.561146</column>
+                <column id="1">0.0891354166666667</column>
+              </row>
+              <row id="250">
+                <column id="0">-0.563816</column>
+                <column id="1">0.0777104166666667</column>
+              </row>
+              <row id="251">
+                <column id="0">-0.568234</column>
+                <column id="1">0.0859902777777778</column>
+              </row>
+              <row id="252">
+                <column id="0">-0.56688</column>
+                <column id="1">0.0825916666666667</column>
+              </row>
+              <row id="253">
+                <column id="0">-0.56977</column>
+                <column id="1">0.0889868055555556</column>
+              </row>
+              <row id="254">
+                <column id="0">-0.572754</column>
+                <column id="1">0.0837868055555556</column>
+              </row>
+              <row id="255">
+                <column id="0">-0.577568</column>
+                <column id="1">0.0937805555555556</column>
+              </row>
+              <row id="256">
+                <column id="0">-0.579142</column>
+                <column id="1">0.0866854166666667</column>
+              </row>
+              <row id="257">
+                <column id="0">-0.581848</column>
+                <column id="1">0.0905263888888889</column>
+              </row>
+              <row id="258">
+                <column id="0">-0.582882</column>
+                <column id="1">0.09090625</column>
+              </row>
+              <row id="259">
+                <column id="0">0.224338</column>
+                <column id="1">0.0622319444444444</column>
+              </row>
+              <row id="260">
+                <column id="0">-0.588902</column>
+                <column id="1">0.09240625</column>
+              </row>
+              <row id="261">
+                <column id="0">-0.58843</column>
+                <column id="1">0.0953638888888889</column>
+              </row>
+              <row id="262">
+                <column id="0">-0.593128</column>
+                <column id="1">0.0936006944444444</column>
+              </row>
+              <row id="263">
+                <column id="0">-0.597498</column>
+                <column id="1">0.0918958333333333</column>
+              </row>
+              <row id="264">
+                <column id="0">0.222234</column>
+                <column id="1">0.0665430555555556</column>
+              </row>
+              <row id="265">
+                <column id="0">0.22293</column>
+                <column id="1">0.0637152777777778</column>
+              </row>
+              <row id="266">
+                <column id="0">-0.604206</column>
+                <column id="1">0.0956354166666667</column>
+              </row>
+              <row id="267">
+                <column id="0">0.222918</column>
+                <column id="1">0.0662381944444444</column>
+              </row>
+              <row id="268">
+                <column id="0">-0.61002</column>
+                <column id="1">0.106352083333333</column>
+              </row>
+              <row id="269">
+                <column id="0">-0.609608</column>
+                <column id="1">0.10329375</column>
+              </row>
+              <row id="270">
+                <column id="0">-0.613796</column>
+                <column id="1">0.0978791666666667</column>
+              </row>
+              <row id="271">
+                <column id="0">-0.617474</column>
+                <column id="1">0.0997</column>
+              </row>
+              <row id="272">
+                <column id="0">0.222164</column>
+                <column id="1">0.0698006944444445</column>
+              </row>
+              <row id="273">
+                <column id="0">-0.62369</column>
+                <column id="1">0.107734722222222</column>
+              </row>
+              <row id="274">
+                <column id="0">0.221938</column>
+                <column id="1">0.0642347222222222</column>
+              </row>
+              <row id="275">
+                <column id="0">0.219984</column>
+                <column id="1">0.0702895833333333</column>
+              </row>
+              <row id="276">
+                <column id="0">-0.632284</column>
+                <column id="1">0.115163888888889</column>
+              </row>
+              <row id="277">
+                <column id="0">-0.637142</column>
+                <column id="1">0.102843055555556</column>
+              </row>
+              <row id="278">
+                <column id="0">-0.640164</column>
+                <column id="1">0.0981652777777778</column>
+              </row>
+              <row id="279">
+                <column id="0">-0.638754</column>
+                <column id="1">0.112231944444444</column>
+              </row>
+              <row id="280">
+                <column id="0">-0.64587</column>
+                <column id="1">0.109619444444444</column>
+              </row>
+              <row id="281">
+                <column id="0">-0.648096</column>
+                <column id="1">0.106690972222222</column>
+              </row>
+              <row id="282">
+                <column id="0">-0.653502</column>
+                <column id="1">0.110532638888889</column>
+              </row>
+              <row id="283">
+                <column id="0">-0.655214</column>
+                <column id="1">0.102644444444444</column>
+              </row>
+              <row id="284">
+                <column id="0">-0.65759</column>
+                <column id="1">0.104385416666667</column>
+              </row>
+              <row id="285">
+                <column id="0">-0.658488</column>
+                <column id="1">0.115213194444444</column>
+              </row>
+              <row id="286">
+                <column id="0">-0.662276</column>
+                <column id="1">0.1040375</column>
+              </row>
+              <row id="287">
+                <column id="0">-0.663436</column>
+                <column id="1">0.114926388888889</column>
+              </row>
+              <row id="288">
+                <column id="0">-0.671024</column>
+                <column id="1">0.117142361111111</column>
+              </row>
+              <row id="289">
+                <column id="0">-0.673498</column>
+                <column id="1">0.118095833333333</column>
+              </row>
+              <row id="290">
+                <column id="0">-0.680688</column>
+                <column id="1">0.114185416666667</column>
+              </row>
+              <row id="291">
+                <column id="0">-0.679698</column>
+                <column id="1">0.108311805555556</column>
+              </row>
+              <row id="292">
+                <column id="0">-0.67723</column>
+                <column id="1">0.111705555555556</column>
+              </row>
+              <row id="293">
+                <column id="0">-0.67774</column>
+                <column id="1">0.111997222222222</column>
+              </row>
+              <row id="294">
+                <column id="0">-0.679156</column>
+                <column id="1">0.108238888888889</column>
+              </row>
+              <row id="295">
+                <column id="0">-0.6794</column>
+                <column id="1">0.117845833333333</column>
+              </row>
+            </rows>
+          </xls-upload-ax_strain-t_strain-table>
+          <ax-strain-confirm>
+            <selection>yes</selection>
+          </ax-strain-confirm>
+          <trans-strain-confirm>
+            <selection>yes</selection>
+          </trans-strain-confirm>
+        </trans-axial-strain-xls>
+      </base-trans-axial-strain>
+      <base-twist-axial-strain>
+        <twist-axial-strain-topology>
+          <fileExtension/>
+          <topology-url>https://portal.meta-genome.org/pid/rest/local/cdcs/17L54GMWPHQAI3DA</topology-url>
+          <base-material-info>
+            <base-material-class>Organic</base-material-class>
+            <new-base-class/>
+            <base-material-id>https://portal.meta-genome.org/pid/rest/local/cdcs/BXN3Y3GZJ6U6ICAV</base-material-id>
+          </base-material-info>
+        </twist-axial-strain-topology>
+        <twist-axial-strain-loading-ax>
+          <loading-ax>y</loading-ax>
+        </twist-axial-strain-loading-ax>
+        <twist-axial-strain-twist-ax>
+          <twist-ax>z</twist-ax>
+        </twist-axial-strain-twist-ax>
+        <twist-axial-strain-xls>
+          <fileExtension>https://portal.meta-genome.org/pid/rest/local/cdcs/BXN3Y3GZJ6U6ICAV</fileExtension>
+          <xls-upload-twist-ax_strain-table>
+            <headers>
+              <column id="0"/>
+              <column id="1"/>
+            </headers>
+            <rows>
+              <row id="0">
+                <column id="0">0.0</column>
+                <column id="1">0.0</column>
+              </row>
+              <row id="1">
+                <column id="0">0.000466000000000077</column>
+                <column id="1">0.00160657365712579</column>
+              </row>
+              <row id="2">
+                <column id="0">-0.00125199999999998</column>
+                <column id="1">-0.00167762042366361</column>
+              </row>
+              <row id="3">
+                <column id="0">-0.00179600000000002</column>
+                <column id="1">-0.00288541545383954</column>
+              </row>
+              <row id="4">
+                <column id="0">-0.00446599999999991</column>
+                <column id="1">-0.0017372080343043</column>
+              </row>
+              <row id="5">
+                <column id="0">-0.00707599999999997</column>
+                <column id="1">-0.00433843641643907</column>
+              </row>
+              <row id="6">
+                <column id="0">-0.00915399999999994</column>
+                <column id="1">-0.0026722751545525</column>
+              </row>
+              <row id="7">
+                <column id="0">-0.011198</column>
+                <column id="1">-0.00160657365712576</column>
+              </row>
+              <row id="8">
+                <column id="0">-0.00951599999999991</column>
+                <column id="1">-0.000142093533192152</column>
+              </row>
+              <row id="9">
+                <column id="0">-0.0112239999999999</column>
+                <column id="1">-0.0022780801922397</column>
+              </row>
+              <row id="10">
+                <column id="0">-0.0137139999999999</column>
+                <column id="1">0.000767763445429354</column>
+              </row>
+              <row id="11">
+                <column id="0">-0.0178659999999999</column>
+                <column id="1">-0.000126050714928545</column>
+              </row>
+              <row id="12">
+                <column id="0">-0.018232</column>
+                <column id="1">0.00111153812241438</column>
+              </row>
+              <row id="13">
+                <column id="0">-0.0170519999999999</column>
+                <column id="1">0.00202597876273823</column>
+              </row>
+              <row id="14">
+                <column id="0">-0.022408</column>
+                <column id="1">0.00220474159457524</column>
+              </row>
+              <row id="15">
+                <column id="0">-0.020806</column>
+                <column id="1">-0.0028533298173927</column>
+              </row>
+              <row id="16">
+                <column id="0">-0.023664</column>
+                <column id="1">4.12529612494216e-05</column>
+              </row>
+              <row id="17">
+                <column id="0">-0.0250999999999999</column>
+                <column id="1">-0.000893814160331566</column>
+              </row>
+              <row id="18">
+                <column id="0">-0.02653</column>
+                <column id="1">-0.000792973588410411</column>
+              </row>
+              <row id="19">
+                <column id="0">-0.02855</column>
+                <column id="1">0.0015905308388746</column>
+              </row>
+              <row id="20">
+                <column id="0">-0.030976</column>
+                <column id="1">0.000547747652128387</column>
+              </row>
+              <row id="21">
+                <column id="0">-0.030276</column>
+                <column id="1">0.000531704833866148</column>
+              </row>
+              <row id="22">
+                <column id="0">-0.032476</column>
+                <column id="1">0.00107028516117988</column>
+              </row>
+              <row id="23">
+                <column id="0">-0.034778</column>
+                <column id="1">0.000407945950126279</column>
+              </row>
+              <row id="24">
+                <column id="0">-0.033866</column>
+                <column id="1">-0.00292208475263375</column>
+              </row>
+              <row id="25">
+                <column id="0">-0.0345759999999999</column>
+                <column id="1">-0.0039350741307713</column>
+              </row>
+              <row id="26">
+                <column id="0">-0.03664</column>
+                <column id="1">0.00197785030800599</column>
+              </row>
+              <row id="27">
+                <column id="0">-0.038828</column>
+                <column id="1">-0.00343774676665965</column>
+              </row>
+              <row id="28">
+                <column id="0">-0.04168</column>
+                <column id="1">-0.00315585153238914</column>
+              </row>
+              <row id="29">
+                <column id="0">-0.03993</column>
+                <column id="1">0.000249809598675467</column>
+              </row>
+              <row id="30">
+                <column id="0">-0.0418839999999999</column>
+                <column id="1">-3.66692988883567e-05</column>
+              </row>
+              <row id="31">
+                <column id="0">-0.043978</column>
+                <column id="1">0.00065317188642086</column>
+              </row>
+              <row id="32">
+                <column id="0">-0.048584</column>
+                <column id="1">-0.000148969026733668</column>
+              </row>
+              <row id="33">
+                <column id="0">-0.050236</column>
+                <column id="1">-0.00462949897458226</column>
+              </row>
+              <row id="34">
+                <column id="0">-0.0478299999999999</column>
+                <column id="1">-0.00383194172812159</column>
+              </row>
+              <row id="35">
+                <column id="0">-0.0451779999999999</column>
+                <column id="1">-0.00137280687687073</column>
+              </row>
+              <row id="36">
+                <column id="0">-0.050872</column>
+                <column id="1">-0.00248663682930652</column>
+              </row>
+              <row id="37">
+                <column id="0">-0.056674</column>
+                <column id="1">-0.00178992015140639</column>
+              </row>
+              <row id="38">
+                <column id="0">-0.0547700000000001</column>
+                <column id="1">-0.00508557337622588</column>
+              </row>
+              <row id="39">
+                <column id="0">-0.0574739999999999</column>
+                <column id="1">-0.0045401175591142</column>
+              </row>
+              <row id="40">
+                <column id="0">-0.055568</column>
+                <column id="1">-0.00102215670640492</column>
+              </row>
+              <row id="41">
+                <column id="0">-0.060326</column>
+                <column id="1">0.000206264806246221</column>
+              </row>
+              <row id="42">
+                <column id="0">-0.06131</column>
+                <column id="1">-0.00501911027250752</column>
+              </row>
+              <row id="43">
+                <column id="0">-0.0644959999999999</column>
+                <column id="1">-0.0034400385978319</column>
+              </row>
+              <row id="44">
+                <column id="0">-0.0659299999999999</column>
+                <column id="1">-0.0043476037411085</column>
+              </row>
+              <row id="45">
+                <column id="0">-0.0672820000000001</column>
+                <column id="1">-0.00367151354617292</column>
+              </row>
+              <row id="46">
+                <column id="0">-0.072438</column>
+                <column id="1">-0.0050489040776243</column>
+              </row>
+              <row id="47">
+                <column id="0">-0.0715459999999999</column>
+                <column id="1">-0.000710467665925786</column>
+              </row>
+              <row id="48">
+                <column id="0">-0.0729719999999999</column>
+                <column id="1">-0.00939879958702151</column>
+              </row>
+              <row id="49">
+                <column id="0">-0.082172</column>
+                <column id="1">-0.00177846099551487</column>
+              </row>
+              <row id="50">
+                <column id="0">-0.0770239999999999</column>
+                <column id="1">-0.0066440185625569</column>
+              </row>
+              <row id="51">
+                <column id="0">-0.078324</column>
+                <column id="1">-0.00169824690427045</column>
+              </row>
+              <row id="52">
+                <column id="0">-0.082802</column>
+                <column id="1">-0.00632774586369832</column>
+              </row>
+              <row id="53">
+                <column id="0">-0.084446</column>
+                <column id="1">-0.0057502044126273</column>
+              </row>
+              <row id="54">
+                <column id="0">-0.085688</column>
+                <column id="1">-0.0089518925182826</column>
+              </row>
+              <row id="55">
+                <column id="0">-0.0897440000000001</column>
+                <column id="1">-0.00590834076244644</column>
+              </row>
+              <row id="56">
+                <column id="0">-0.08883</column>
+                <column id="1">-0.0121237867640225</column>
+              </row>
+              <row id="57">
+                <column id="0">-0.0925</column>
+                <column id="1">-0.00789077470465412</column>
+              </row>
+              <row id="58">
+                <column id="0">-0.095888</column>
+                <column id="1">-0.00858290770685946</column>
+              </row>
+              <row id="59">
+                <column id="0">-0.0979599999999998</column>
+                <column id="1">-0.0094950564939867</column>
+              </row>
+              <row id="60">
+                <column id="0">-0.102514</column>
+                <column id="1">-0.00982966383682609</column>
+              </row>
+              <row id="61">
+                <column id="0">-0.0996019999999999</column>
+                <column id="1">-0.00789535836692815</column>
+              </row>
+              <row id="62">
+                <column id="0">-0.10486</column>
+                <column id="1">-0.0145027074006232</column>
+              </row>
+              <row id="63">
+                <column id="0">-0.108716</column>
+                <column id="1">-0.011021416011197</column>
+              </row>
+              <row id="64">
+                <column id="0">-0.109474</column>
+                <column id="1">-0.0196524516022902</column>
+              </row>
+              <row id="65">
+                <column id="0">-0.113206</column>
+                <column id="1">-0.0160519851684137</column>
+              </row>
+              <row id="66">
+                <column id="0">-0.11582</column>
+                <column id="1">-0.0202208256662387</column>
+              </row>
+              <row id="67">
+                <column id="0">-0.122694</column>
+                <column id="1">-0.0175966792508025</column>
+              </row>
+              <row id="68">
+                <column id="0">-0.119202</column>
+                <column id="1">-0.0199870589146063</column>
+              </row>
+              <row id="69">
+                <column id="0">-0.123066</column>
+                <column id="1">-0.0229183105829231</column>
+              </row>
+              <row id="70">
+                <column id="0">-0.122254</column>
+                <column id="1">-0.0211306825264058</column>
+              </row>
+              <row id="71">
+                <column id="0">-0.125324</column>
+                <column id="1">-0.0238235837485894</column>
+              </row>
+              <row id="72">
+                <column id="0">-0.12921</column>
+                <column id="1">-0.0223201427380372</column>
+              </row>
+              <row id="73">
+                <column id="0">-0.1348</column>
+                <column id="1">-0.0251826393900141</column>
+              </row>
+              <row id="74">
+                <column id="0">-0.135886</column>
+                <column id="1">-0.027900750586322</column>
+              </row>
+              <row id="75">
+                <column id="0">-0.138378</column>
+                <column id="1">-0.0301352854138869</column>
+              </row>
+              <row id="76">
+                <column id="0">-0.14156</column>
+                <column id="1">-0.0285539223142302</column>
+              </row>
+              <row id="77">
+                <column id="0">-0.14211</column>
+                <column id="1">-0.0286341363855703</column>
+              </row>
+              <row id="78">
+                <column id="0">-0.14652</column>
+                <column id="1">-0.0284714164121636</column>
+              </row>
+              <row id="79">
+                <column id="0">-0.146466</column>
+                <column id="1">-0.0318358236523631</column>
+              </row>
+              <row id="80">
+                <column id="0">-0.147902</column>
+                <column id="1">-0.0344645531359823</column>
+              </row>
+              <row id="81">
+                <column id="0">-0.149672</column>
+                <column id="1">-0.0396601322446933</column>
+              </row>
+              <row id="82">
+                <column id="0">-0.1545</column>
+                <column id="1">-0.0346203975996139</column>
+              </row>
+              <row id="83">
+                <column id="0">-0.15669</column>
+                <column id="1">-0.0316685200275665</column>
+              </row>
+              <row id="84">
+                <column id="0">-0.158098</column>
+                <column id="1">-0.0347074871525968</column>
+              </row>
+              <row id="85">
+                <column id="0">-0.162334</column>
+                <column id="1">-0.0362200951521568</column>
+              </row>
+              <row id="86">
+                <column id="0">-0.160218</column>
+                <column id="1">-0.0367563834308955</column>
+              </row>
+              <row id="87">
+                <column id="0">-0.165882</column>
+                <column id="1">-0.0380329328546287</column>
+              </row>
+              <row id="88">
+                <column id="0">-0.166894</column>
+                <column id="1">-0.0413492109804757</column>
+              </row>
+              <row id="89">
+                <column id="0">-0.166322</column>
+                <column id="1">-0.0407052067489634</column>
+              </row>
+              <row id="90">
+                <column id="0">-0.16828</column>
+                <column id="1">-0.0400520351869245</column>
+              </row>
+              <row id="91">
+                <column id="0">-0.17243</column>
+                <column id="1">-0.0426440949017273</column>
+              </row>
+              <row id="92">
+                <column id="0">-0.175308</column>
+                <column id="1">-0.0425982583034808</column>
+              </row>
+              <row id="93">
+                <column id="0">-0.17835</column>
+                <column id="1">-0.0415852694684219</column>
+              </row>
+              <row id="94">
+                <column id="0">-0.179334</column>
+                <column id="1">-0.0445990257653707</column>
+              </row>
+              <row id="95">
+                <column id="0">-0.180292</column>
+                <column id="1">-0.0477915445237002</column>
+              </row>
+              <row id="96">
+                <column id="0">-0.18427</column>
+                <column id="1">-0.0459191197015899</column>
+              </row>
+              <row id="97">
+                <column id="0">-0.185202</column>
+                <column id="1">-0.0404462299554464</column>
+              </row>
+              <row id="98">
+                <column id="0">-0.191152</column>
+                <column id="1">-0.0428572350828553</column>
+              </row>
+              <row id="99">
+                <column id="0">-0.190438</column>
+                <column id="1">-0.0438129281384069</column>
+              </row>
+              <row id="100">
+                <column id="0">-0.193388</column>
+                <column id="1">-0.0445783992972379</column>
+              </row>
+              <row id="101">
+                <column id="0">-0.19409</column>
+                <column id="1">-0.0477434161023612</column>
+              </row>
+              <row id="102">
+                <column id="0">-0.195748</column>
+                <column id="1">-0.0461528863310878</column>
+              </row>
+              <row id="103">
+                <column id="0">-0.199132</column>
+                <column id="1">-0.0447594538504527</column>
+              </row>
+              <row id="104">
+                <column id="0">-0.201608</column>
+                <column id="1">-0.046343108195134</column>
+              </row>
+              <row id="105">
+                <column id="0">-0.203792</column>
+                <column id="1">-0.0451444812517816</column>
+              </row>
+              <row id="106">
+                <column id="0">-0.207106</column>
+                <column id="1">-0.0426005501333945</column>
+              </row>
+              <row id="107">
+                <column id="0">-0.207614</column>
+                <column id="1">-0.0441910800601604</column>
+              </row>
+              <row id="108">
+                <column id="0">-0.21306</column>
+                <column id="1">-0.0441475352936086</column>
+              </row>
+              <row id="109">
+                <column id="0">-0.212192</column>
+                <column id="1">-0.0452292789527181</column>
+              </row>
+              <row id="110">
+                <column id="0">-0.21674</column>
+                <column id="1">-0.0461185088856696</column>
+              </row>
+              <row id="111">
+                <column id="0">-0.22018</column>
+                <column id="1">-0.042307195903346</column>
+              </row>
+              <row id="112">
+                <column id="0">-0.224286</column>
+                <column id="1">-0.0428434841034634</column>
+              </row>
+              <row id="113">
+                <column id="0">-0.226028</column>
+                <column id="1">-0.0471658750410567</column>
+              </row>
+              <row id="114">
+                <column id="0">-0.228138</column>
+                <column id="1">-0.0445944421057866</column>
+              </row>
+              <row id="115">
+                <column id="0">-0.230398</column>
+                <column id="1">-0.0497258486390532</column>
+              </row>
+              <row id="116">
+                <column id="0">-0.231324</column>
+                <column id="1">-0.045644100135518</column>
+              </row>
+              <row id="117">
+                <column id="0">-0.235396</column>
+                <column id="1">-0.046661672519379</column>
+              </row>
+              <row id="118">
+                <column id="0">-0.237014</column>
+                <column id="1">-0.0450115551255914</column>
+              </row>
+              <row id="119">
+                <column id="0">-0.236708</column>
+                <column id="1">-0.0482269921422655</column>
+              </row>
+              <row id="120">
+                <column id="0">-0.242452</column>
+                <column id="1">-0.0475440269275252</column>
+              </row>
+              <row id="121">
+                <column id="0">-0.244426</column>
+                <column id="1">-0.0466295869041178</column>
+              </row>
+              <row id="122">
+                <column id="0">-0.244482</column>
+                <column id="1">-0.0433866477856735</column>
+              </row>
+              <row id="123">
+                <column id="0">-0.25058</column>
+                <column id="1">-0.0395524162306799</column>
+              </row>
+              <row id="124">
+                <column id="0">-0.252642</column>
+                <column id="1">-0.0408793858303939</column>
+              </row>
+              <row id="125">
+                <column id="0">-0.256778</column>
+                <column id="1">-0.0451330221029913</column>
+              </row>
+              <row id="126">
+                <column id="0">-0.25848</column>
+                <column id="1">-0.0464393650416118</column>
+              </row>
+              <row id="127">
+                <column id="0">-0.250922</column>
+                <column id="1">-0.0416036041082034</column>
+              </row>
+              <row id="128">
+                <column id="0">-0.259978</column>
+                <column id="1">-0.0427059743092734</column>
+              </row>
+              <row id="129">
+                <column id="0">-0.26388</column>
+                <column id="1">-0.0411452381111195</column>
+              </row>
+              <row id="130">
+                <column id="0">-0.267584</column>
+                <column id="1">-0.0409160551105989</column>
+              </row>
+              <row id="131">
+                <column id="0">-0.269882</column>
+                <column id="1">-0.0391398868127299</column>
+              </row>
+              <row id="132">
+                <column id="0">-0.271444</column>
+                <column id="1">-0.0386792289578919</column>
+              </row>
+              <row id="133">
+                <column id="0">-0.273186</column>
+                <column id="1">-0.0367930527146777</column>
+              </row>
+              <row id="134">
+                <column id="0">-0.27574</column>
+                <column id="1">-0.0365982471442405</column>
+              </row>
+              <row id="135">
+                <column id="0">-0.277406</column>
+                <column id="1">-0.038837365236985</column>
+              </row>
+              <row id="136">
+                <column id="0">-0.27883</column>
+                <column id="1">-0.0364034415729571</column>
+              </row>
+              <row id="137">
+                <column id="0">-0.281134</column>
+                <column id="1">-0.0385715129413605</column>
+              </row>
+              <row id="138">
+                <column id="0">-0.282904</column>
+                <column id="1">-0.0374966445913748</column>
+              </row>
+              <row id="139">
+                <column id="0">-0.282836</column>
+                <column id="1">-0.0357708964180688</column>
+              </row>
+              <row id="140">
+                <column id="0">-0.28679</column>
+                <column id="1">-0.0353675342857512</column>
+              </row>
+              <row id="141">
+                <column id="0">-0.291738</column>
+                <column id="1">-0.0331971709350686</column>
+              </row>
+              <row id="142">
+                <column id="0">-0.291604</column>
+                <column id="1">-0.0339190975092709</column>
+              </row>
+              <row id="143">
+                <column id="0">-0.292712</column>
+                <column id="1">-0.0353308650008206</column>
+              </row>
+              <row id="144">
+                <column id="0">-0.295628</column>
+                <column id="1">-0.0305936515212535</column>
+              </row>
+              <row id="145">
+                <column id="0">-0.296744</column>
+                <column id="1">-0.0308457528786397</column>
+              </row>
+              <row id="146">
+                <column id="0">-0.299282</column>
+                <column id="1">-0.0328694391851921</column>
+              </row>
+              <row id="147">
+                <column id="0">-0.29838</column>
+                <column id="1">-0.0333805173676197</column>
+              </row>
+              <row id="148">
+                <column id="0">-0.302054</column>
+                <column id="1">-0.0267937963783448</column>
+              </row>
+              <row id="149">
+                <column id="0">-0.304206</column>
+                <column id="1">-0.0346639423761253</column>
+              </row>
+              <row id="150">
+                <column id="0">-0.308624</column>
+                <column id="1">-0.0326127541767928</column>
+              </row>
+              <row id="151">
+                <column id="0">-0.309866</column>
+                <column id="1">-0.0301765383637087</column>
+              </row>
+              <row id="152">
+                <column id="0">-0.308224</column>
+                <column id="1">-0.0309649280653526</column>
+              </row>
+              <row id="153">
+                <column id="0">-0.316232</column>
+                <column id="1">-0.0300436121919488</column>
+              </row>
+              <row id="154">
+                <column id="0">-0.31642</column>
+                <column id="1">-0.0317968625343081</column>
+              </row>
+              <row id="155">
+                <column id="0">-0.317644</column>
+                <column id="1">-0.0330413264668654</column>
+              </row>
+              <row id="156">
+                <column id="0">-0.321876</column>
+                <column id="1">-0.0400382842065586</column>
+              </row>
+              <row id="157">
+                <column id="0">-0.326878</column>
+                <column id="1">-0.0310795195907854</column>
+              </row>
+              <row id="158">
+                <column id="0">-0.332668</column>
+                <column id="1">-0.0360665425241657</column>
+              </row>
+              <row id="159">
+                <column id="0">-0.33456</column>
+                <column id="1">-0.0345103897429858</column>
+              </row>
+              <row id="160">
+                <column id="0">-0.334722</column>
+                <column id="1">-0.0340061870635306</column>
+              </row>
+              <row id="161">
+                <column id="0">-0.33539</column>
+                <column id="1">-0.0360298732397926</column>
+              </row>
+              <row id="162">
+                <column id="0">-0.3386</column>
+                <column id="1">-0.0373247573261165</column>
+              </row>
+              <row id="163">
+                <column id="0">-0.337752</column>
+                <column id="1">-0.035470666649463</column>
+              </row>
+              <row id="164">
+                <column id="0">-0.342606</column>
+                <column id="1">-0.0352231489761697</column>
+              </row>
+              <row id="165">
+                <column id="0">-0.345878</column>
+                <column id="1">-0.0406754129586432</column>
+              </row>
+              <row id="166">
+                <column id="0">-0.35023</column>
+                <column id="1">-0.0331146650401985</column>
+              </row>
+              <row id="167">
+                <column id="0">-0.350844</column>
+                <column id="1">-0.0367128386563651</column>
+              </row>
+              <row id="168">
+                <column id="0">-0.352292</column>
+                <column id="1">-0.0373683021000456</column>
+              </row>
+              <row id="169">
+                <column id="0">-0.353918</column>
+                <column id="1">-0.0353469078129813</column>
+              </row>
+              <row id="170">
+                <column id="0">-0.355228</column>
+                <column id="1">-0.0357204761517222</column>
+              </row>
+              <row id="171">
+                <column id="0">-0.360516</column>
+                <column id="1">-0.0344347593414064</column>
+              </row>
+              <row id="172">
+                <column id="0">0.235826</column>
+                <column id="1">-0.133418711025619</column>
+              </row>
+              <row id="173">
+                <column id="0">-0.366046</column>
+                <column id="1">-0.0418098688051573</column>
+              </row>
+              <row id="174">
+                <column id="0">-0.367166</column>
+                <column id="1">-0.0412735805908363</column>
+              </row>
+              <row id="175">
+                <column id="0">-0.369694</column>
+                <column id="1">-0.0386838126181638</column>
+              </row>
+              <row id="176">
+                <column id="0">-0.369452</column>
+                <column id="1">-0.0388946609901337</column>
+              </row>
+              <row id="177">
+                <column id="0">-0.375314</column>
+                <column id="1">-0.0397838910689584</column>
+              </row>
+              <row id="178">
+                <column id="0">-0.378392</column>
+                <column id="1">-0.0394584511969504</column>
+              </row>
+              <row id="179">
+                <column id="0">-0.379628</column>
+                <column id="1">-0.04237824263114</column>
+              </row>
+              <row id="180">
+                <column id="0">-0.383674</column>
+                <column id="1">-0.0391032175309373</column>
+              </row>
+              <row id="181">
+                <column id="0">-0.388124</column>
+                <column id="1">-0.0404026851846925</column>
+              </row>
+              <row id="182">
+                <column id="0">-0.390288</column>
+                <column id="1">-0.0452636563989873</column>
+              </row>
+              <row id="183">
+                <column id="0">-0.388022</column>
+                <column id="1">-0.0482659532447084</column>
+              </row>
+              <row id="184">
+                <column id="0">-0.394198</column>
+                <column id="1">-0.0499206541420915</column>
+              </row>
+              <row id="185">
+                <column id="0">-0.393202</column>
+                <column id="1">-0.0505509072322263</column>
+              </row>
+              <row id="186">
+                <column id="0">-0.397314</column>
+                <column id="1">-0.0489191246613415</column>
+              </row>
+              <row id="187">
+                <column id="0">-0.398228</column>
+                <column id="1">-0.0510253159138298</column>
+              </row>
+              <row id="188">
+                <column id="0">-0.400936</column>
+                <column id="1">-0.045449294608277</column>
+              </row>
+              <row id="189">
+                <column id="0">-0.404552</column>
+                <column id="1">-0.0460841314402182</column>
+              </row>
+              <row id="190">
+                <column id="0">-0.405084</column>
+                <column id="1">-0.0506471640667375</column>
+              </row>
+              <row id="191">
+                <column id="0">-0.40686</column>
+                <column id="1">-0.0461391353529245</column>
+              </row>
+              <row id="192">
+                <column id="0">-0.406778</column>
+                <column id="1">-0.0489718367400263</column>
+              </row>
+              <row id="193">
+                <column id="0">-0.415444</column>
+                <column id="1">-0.0492720664039958</column>
+              </row>
+              <row id="194">
+                <column id="0">-0.417888</column>
+                <column id="1">-0.0516601526410574</column>
+              </row>
+              <row id="195">
+                <column id="0">-0.419354</column>
+                <column id="1">-0.054153662838938</column>
+              </row>
+              <row id="196">
+                <column id="0">-0.422456</column>
+                <column id="1">-0.0531337988576273</column>
+              </row>
+              <row id="197">
+                <column id="0">-0.425368</column>
+                <column id="1">-0.0574997331848674</column>
+              </row>
+              <row id="198">
+                <column id="0">-0.429636</column>
+                <column id="1">-0.0572843012700548</column>
+              </row>
+              <row id="199">
+                <column id="0">-0.428474</column>
+                <column id="1">-0.0529389933742014</column>
+              </row>
+              <row id="200">
+                <column id="0">-0.435634</column>
+                <column id="1">-0.0560650482750254</column>
+              </row>
+              <row id="201">
+                <column id="0">-0.438876</column>
+                <column id="1">-0.0556777291738193</column>
+              </row>
+              <row id="202">
+                <column id="0">-0.436204</column>
+                <column id="1">-0.0539680246785834</column>
+              </row>
+              <row id="203">
+                <column id="0">-0.443016</column>
+                <column id="1">-0.0564775774896087</column>
+              </row>
+              <row id="204">
+                <column id="0">-0.44787</column>
+                <column id="1">-0.056878647553729</column>
+              </row>
+              <row id="205">
+                <column id="0">-0.450002</column>
+                <column id="1">-0.0543920130678491</column>
+              </row>
+              <row id="206">
+                <column id="0">-0.455082</column>
+                <column id="1">-0.0586823168583354</column>
+              </row>
+              <row id="207">
+                <column id="0">-0.455078</column>
+                <column id="1">-0.0581093596583793</column>
+              </row>
+              <row id="208">
+                <column id="0">-0.459092</column>
+                <column id="1">-0.0613408381107433</column>
+              </row>
+              <row id="209">
+                <column id="0">-0.45955</column>
+                <column id="1">-0.0588473285297511</column>
+              </row>
+              <row id="210">
+                <column id="0">-0.46589</column>
+                <column id="1">-0.059906153397988</column>
+              </row>
+              <row id="211">
+                <column id="0">-0.465516</column>
+                <column id="1">-0.0581254024601368</column>
+              </row>
+              <row id="212">
+                <column id="0">-0.471312</column>
+                <column id="1">-0.0585768927344212</column>
+              </row>
+              <row id="213">
+                <column id="0">-0.47216</column>
+                <column id="1">-0.0588083674407547</column>
+              </row>
+              <row id="214">
+                <column id="0">-0.474092</column>
+                <column id="1">-0.0574195191742226</column>
+              </row>
+              <row id="215">
+                <column id="0">-0.47827</column>
+                <column id="1">-0.0580497721089148</column>
+              </row>
+              <row id="216">
+                <column id="0">-0.477898</column>
+                <column id="1">-0.0576807876652081</column>
+              </row>
+              <row id="217">
+                <column id="0">-0.483028</column>
+                <column id="1">-0.0571697098253453</column>
+              </row>
+              <row id="218">
+                <column id="0">-0.483998</column>
+                <column id="1">-0.0609695618824791</column>
+              </row>
+              <row id="219">
+                <column id="0">-0.484552</column>
+                <column id="1">-0.0575341106179319</column>
+              </row>
+              <row id="220">
+                <column id="0">-0.492202</column>
+                <column id="1">-0.0572499238366901</column>
+              </row>
+              <row id="221">
+                <column id="0">-0.496106</column>
+                <column id="1">-0.0619985928975323</column>
+              </row>
+              <row id="222">
+                <column id="0">-0.49704</column>
+                <column id="1">-0.0599382389994207</column>
+              </row>
+              <row id="223">
+                <column id="0">-0.498824</column>
+                <column id="1">-0.0618725423298959</column>
+              </row>
+              <row id="224">
+                <column id="0">-0.502368</column>
+                <column id="1">-0.0629840791328154</column>
+              </row>
+              <row id="225">
+                <column id="0">-0.506742</column>
+                <column id="1">-0.0596907215016821</column>
+              </row>
+              <row id="226">
+                <column id="0">-0.508972</column>
+                <column id="1">-0.0606487058786189</column>
+              </row>
+              <row id="227">
+                <column id="0">-0.508926</column>
+                <column id="1">-0.0609443517680282</column>
+              </row>
+              <row id="228">
+                <column id="0">-0.514128</column>
+                <column id="1">-0.0621200598075959</column>
+              </row>
+              <row id="229">
+                <column id="0">-0.513582</column>
+                <column id="1">-0.0628351102856724</column>
+              </row>
+              <row id="230">
+                <column id="0">-0.515674</column>
+                <column id="1">-0.0646273200512736</column>
+              </row>
+              <row id="231">
+                <column id="0">-0.521496</column>
+                <column id="1">-0.0581597798924435</column>
+              </row>
+              <row id="232">
+                <column id="0">-0.520634</column>
+                <column id="1">-0.0578801767751364</column>
+              </row>
+              <row id="233">
+                <column id="0">-0.525208</column>
+                <column id="1">-0.0557671105053198</column>
+              </row>
+              <row id="234">
+                <column id="0">-0.526412</column>
+                <column id="1">-0.0596403012703878</column>
+              </row>
+              <row id="235">
+                <column id="0">-0.533496</column>
+                <column id="1">-0.0648610865331902</column>
+              </row>
+              <row id="236">
+                <column id="0">-0.534502</column>
+                <column id="1">-0.0642216664451988</column>
+              </row>
+              <row id="237">
+                <column id="0">-0.534668</column>
+                <column id="1">-0.0629680363339333</column>
+              </row>
+              <row id="238">
+                <column id="0">-0.536298</column>
+                <column id="1">-0.0613431299392969</column>
+              </row>
+              <row id="239">
+                <column id="0">-0.54306</column>
+                <column id="1">-0.0649710942886396</column>
+              </row>
+              <row id="240">
+                <column id="0">-0.54187</column>
+                <column id="1">-0.0671735411239843</column>
+              </row>
+              <row id="241">
+                <column id="0">-0.546352</column>
+                <column id="1">-0.0648862966438563</column>
+              </row>
+              <row id="242">
+                <column id="0">-0.548192</column>
+                <column id="1">-0.0613843828532276</column>
+              </row>
+              <row id="243">
+                <column id="0">-0.551348</column>
+                <column id="1">-0.0651200631233802</column>
+              </row>
+              <row id="244">
+                <column id="0">-0.548916</column>
+                <column id="1">-0.0656036388731524</column>
+              </row>
+              <row id="245">
+                <column id="0">-0.553112</column>
+                <column id="1">-0.0679481789859187</column>
+              </row>
+              <row id="246">
+                <column id="0">-0.555232</column>
+                <column id="1">-0.0693232757208859</column>
+              </row>
+              <row id="247">
+                <column id="0">-0.5578</column>
+                <column id="1">-0.0696808008589603</column>
+              </row>
+              <row id="248">
+                <column id="0">-0.56091</column>
+                <column id="1">-0.0660436698790431</column>
+              </row>
+              <row id="249">
+                <column id="0">-0.561146</column>
+                <column id="1">-0.0692934819591357</column>
+              </row>
+              <row id="250">
+                <column id="0">-0.563816</column>
+                <column id="1">-0.0687503187575973</column>
+              </row>
+              <row id="251">
+                <column id="0">-0.568234</column>
+                <column id="1">-0.0702835515602086</column>
+              </row>
+              <row id="252">
+                <column id="0">-0.56688</column>
+                <column id="1">-0.074156740100058</column>
+              </row>
+              <row id="253">
+                <column id="0">-0.56977</column>
+                <column id="1">-0.072169725706721</column>
+              </row>
+              <row id="254">
+                <column id="0">-0.572754</column>
+                <column id="1">-0.0695914195749493</column>
+              </row>
+              <row id="255">
+                <column id="0">-0.577568</column>
+                <column id="1">-0.0664859927052376</column>
+              </row>
+              <row id="256">
+                <column id="0">-0.579142</column>
+                <column id="1">-0.0692247271241844</column>
+              </row>
+              <row id="257">
+                <column id="0">-0.581848</column>
+                <column id="1">-0.0721926439821527</column>
+              </row>
+              <row id="258">
+                <column id="0">-0.582882</column>
+                <column id="1">-0.0738290087878231</column>
+              </row>
+              <row id="259">
+                <column id="0">0.224338</column>
+                <column id="1">-0.17049798558343</column>
+              </row>
+              <row id="260">
+                <column id="0">-0.588902</column>
+                <column id="1">-0.0692911901313072</column>
+              </row>
+              <row id="261">
+                <column id="0">-0.58843</column>
+                <column id="1">-0.0736869154901067</column>
+              </row>
+              <row id="262">
+                <column id="0">-0.593128</column>
+                <column id="1">-0.0729649898506478</column>
+              </row>
+              <row id="263">
+                <column id="0">-0.597498</column>
+                <column id="1">-0.0738863044721293</column>
+              </row>
+              <row id="264">
+                <column id="0">0.222234</column>
+                <column id="1">-0.168433063754405</column>
+              </row>
+              <row id="265">
+                <column id="0">0.22293</column>
+                <column id="1">-0.172844799643542</column>
+              </row>
+              <row id="266">
+                <column id="0">-0.604206</column>
+                <column id="1">-0.0737465030021627</column>
+              </row>
+              <row id="267">
+                <column id="0">0.222918</column>
+                <column id="1">-0.172397896619919</column>
+              </row>
+              <row id="268">
+                <column id="0">-0.61002</column>
+                <column id="1">-0.0762079254746427</column>
+              </row>
+              <row id="269">
+                <column id="0">-0.609608</column>
+                <column id="1">-0.0757312254271658</column>
+              </row>
+              <row id="270">
+                <column id="0">-0.613796</column>
+                <column id="1">-0.0755845484873682</column>
+              </row>
+              <row id="271">
+                <column id="0">-0.617474</column>
+                <column id="1">-0.0761185442165425</column>
+              </row>
+              <row id="272">
+                <column id="0">0.222164</column>
+                <column id="1">-0.172276430666281</column>
+              </row>
+              <row id="273">
+                <column id="0">-0.62369</column>
+                <column id="1">-0.0739229737100077</column>
+              </row>
+              <row id="274">
+                <column id="0">0.221938</column>
+                <column id="1">-0.169501047796415</column>
+              </row>
+              <row id="275">
+                <column id="0">0.219984</column>
+                <column id="1">-0.175562886296392</column>
+              </row>
+              <row id="276">
+                <column id="0">-0.632284</column>
+                <column id="1">-0.0762377192272605</column>
+              </row>
+              <row id="277">
+                <column id="0">-0.637142</column>
+                <column id="1">-0.0714890529159021</column>
+              </row>
+              <row id="278">
+                <column id="0">-0.640164</column>
+                <column id="1">-0.0721743093618091</column>
+              </row>
+              <row id="279">
+                <column id="0">-0.638754</column>
+                <column id="1">-0.0762950149052554</column>
+              </row>
+              <row id="280">
+                <column id="0">-0.64587</column>
+                <column id="1">-0.0736777481805455</column>
+              </row>
+              <row id="281">
+                <column id="0">-0.648096</column>
+                <column id="1">-0.0695753767803475</column>
+              </row>
+              <row id="282">
+                <column id="0">-0.653502</column>
+                <column id="1">-0.0739000554363408</column>
+              </row>
+              <row id="283">
+                <column id="0">-0.655214</column>
+                <column id="1">-0.0751422258348003</column>
+              </row>
+              <row id="284">
+                <column id="0">-0.65759</column>
+                <column id="1">-0.0717274029863733</column>
+              </row>
+              <row id="285">
+                <column id="0">-0.658488</column>
+                <column id="1">-0.068085688662964</column>
+              </row>
+              <row id="286">
+                <column id="0">-0.662276</column>
+                <column id="1">-0.0682873695212112</column>
+              </row>
+              <row id="287">
+                <column id="0">-0.663436</column>
+                <column id="1">-0.0721766011893529</column>
+              </row>
+              <row id="288">
+                <column id="0">-0.671024</column>
+                <column id="1">-0.0666853817486542</column>
+              </row>
+              <row id="289">
+                <column id="0">-0.673498</column>
+                <column id="1">-0.0737877558950311</column>
+              </row>
+              <row id="290">
+                <column id="0">-0.680688</column>
+                <column id="1">-0.0697793494537588</column>
+              </row>
+              <row id="291">
+                <column id="0">-0.679698</column>
+                <column id="1">-0.0685005095172923</column>
+              </row>
+              <row id="292">
+                <column id="0">-0.67723</column>
+                <column id="1">-0.0722843170836485</column>
+              </row>
+              <row id="293">
+                <column id="0">-0.67774</column>
+                <column id="1">-0.0685371787637389</column>
+              </row>
+              <row id="294">
+                <column id="0">-0.679156</column>
+                <column id="1">-0.0682736185536571</column>
+              </row>
+              <row id="295">
+                <column id="0">-0.6794</column>
+                <column id="1">-0.0750643037085481</column>
+              </row>
+            </rows>
+          </xls-upload-twist-ax_strain-table>
+          <raw-twist-confirm>
+            <selection>yes</selection>
+          </raw-twist-confirm>
+          <ax-strain-confirm>
+            <selection>yes</selection>
+          </ax-strain-confirm>
+        </twist-axial-strain-xls>
+      </base-twist-axial-strain>
+    </isotropic-choice>
+  </metamaterial-material-info>
+  <developer-section>
+    <pid></pid>
+    <up-to-date-check>
+      <dev-most-recent-check>Yes</dev-most-recent-check>
+    </up-to-date-check>
+  </developer-section>
+</map>
